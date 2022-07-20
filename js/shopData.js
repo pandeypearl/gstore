@@ -5,7 +5,7 @@ let shopItemsData = [
 		type: "bagel",
 		name: "Plain Bagel",
 		desc: "Made Using Plain Bread Flour And Does Not Have Any Toppings",
-		img: "img/bakery/bagel/plain-bagel.webp",
+		img: "bakery/bagel/plain-bagel.webp",
 		price: 3,		
 	},
 	{
@@ -14,7 +14,7 @@ let shopItemsData = [
 		type: "bagel",
 		name: "Everything Bagel",
 		desc: "Combination Of Sesame Seeds, Poppy Seeds, Salt And Onion Toppings",
-		img: "img/bakery/bagel/everything-bagel.webp",
+		img: "bakery/bagel/everything-bagel.webp",
 		price: 4,		
 	},
 	{
@@ -23,7 +23,7 @@ let shopItemsData = [
 		type: "bagel",
 		name: "Cinnamon Raisin Bagel",
 		desc: "Bagels With The Sweetness Of Rasins Paired With A Subtle Cinnamon Spice",
-		img: "img/bakery/bagel/cinnamon-raisin-bagel.webp",
+		img: "bakery/bagel/cinnamon-raisin-bagel.webp",
 		price: 4,		
 	},
 	{
@@ -32,7 +32,7 @@ let shopItemsData = [
 		type: "bagel",
 		name: "Salt Bagel",
 		desc: "Plain Bagel Topped With Salt Before Baking",
-		img: "img/bakery/bagel/salt-bagel.webp",
+		img: "bakery/bagel/salt-bagel.webp",
 		price: 3,		
 	},
 	{
@@ -41,7 +41,7 @@ let shopItemsData = [
 		type: "bagel",
 		name: "Egg Bagel",
 		desc: "Made With Egg Yolks In Dough Mixture Resulting In A Soft Texture And Sweet Flavour",
-		img: "img/bakery/bagel/egg-bagel.webp",
+		img: "bakery/bagel/egg-bagel.webp",
 		price: 4,		
 	},
 	{
@@ -50,7 +50,7 @@ let shopItemsData = [
 		type: "bagel",
 		name: "Sesame Bagel",
 		desc: "Crunchy And Delicious With A Warm Nutty Flavour",
-		img: "img/bakery/bagel/sesame-bagel.webp",
+		img: "bakery/bagel/sesame-bagel.webp",
 		price: 4,		
 	},
 	{
@@ -59,7 +59,7 @@ let shopItemsData = [
 		type: "bagel",
 		name: "Poppy Seed Bagel",
 		desc: "Both Soft And Crunchy With A Fruity And Nutty Flavour",
-		img: "img/bakery/bagel/poppy-bagel.webp",
+		img: "bakery/bagel/poppy-bagel.webp",
 		price: 5,		
 	},
 	{
@@ -68,7 +68,7 @@ let shopItemsData = [
 		type: "bagel",
 		name: "Garlic Bagel",
 		desc: "Rich Aroma Derived From Cooked Garlic Resulting In A Rich Sweet and Savoury Flaour",
-		img: "img/bakery/bagel/garlic-bagel.webp",
+		img: "bakery/bagel/garlic-bagel.webp",
 		price: 4,		
 	},
 	{
@@ -77,7 +77,7 @@ let shopItemsData = [
 		type: "bagel",
 		name: "Whole Wheat Bagel",
 		desc: "Fibre And Mineral Rich Bagel",
-		img: "img/bakery/bagel/whole-wheat-bagel.webp",
+		img: "bakery/bagel/whole-wheat-bagel.webp",
 		price: 3,		
 	},
 	{
@@ -86,7 +86,7 @@ let shopItemsData = [
 		type: "bagel",
 		name: "Pumpernickel Bagel",
 		desc: "Made Using Sourdough And Coarsley Ground WholeRye Grains",
-		img: "img/bakery/bagel/pumpernickel-bagel.webp",
+		img: "bakery/bagel/pumpernickel-bagel.webp",
 		price: 5,		
 	},
 	{
@@ -95,7 +95,7 @@ let shopItemsData = [
 		type: "bagel",
 		name: "Rainbow Bagel",
 		desc: "Stuffed With Cotton Candy And Cream Cheesed Flavoured With Rainbow Sprinckle Cake",
-		img: "img/bakery/bagel/rainbow-bagel.webp",
+		img: "bakery/bagel/rainbow-bagel.webp",
 		price: 6,		
 	},
 	{
@@ -104,7 +104,7 @@ let shopItemsData = [
 		type: "bagel",
 		name: "Blueberry Bagel",
 		desc: "Slightly Bluish-Purple Tint Absorbed From Infused Blueberries During Mixing",
-		img: "img/bakery/bagel/blueberry-bagel.webp",
+		img: "bakery/bagel/blueberry-bagel.webp",
 		price: 6,		
 	},
 																														// Bread
@@ -114,7 +114,7 @@ let shopItemsData = [
 		type: "bread",
 		name: "White Bread",
 		desc: "Processed White Bread",
-		img: "img/bakery/bread/white-bread.webp",
+		img: "bakery/bread/white-bread.webp",
 		price: 12,
 	},
 	{
@@ -123,7 +123,7 @@ let shopItemsData = [
 		type: "bread",
 		name: "Wheat Bread",
 		desc: "Wheat Flour Bread",
-		img: "img/bakery/bread/wheat-bread.webp",
+		img: "bakery/bread/wheat-bread.webp",
 		price: 15,
 	},
 	{
@@ -132,7 +132,7 @@ let shopItemsData = [
 		type: "bread",
 		name: "Whole Wheat Bread",
 		desc: "Made From Multiple Refined and Processed Grains",
-		img: "img/bakery/bread/whole-wheat-bread.webp",
+		img: "bakery/bread/whole-wheat-bread.webp",
 		price: 19,
 	},
 	{
@@ -141,7 +141,7 @@ let shopItemsData = [
 		type: "bread",
 		name: "Multigrain Bread",
 		desc: "Made From Multiple Refined and Processed Grains",
-		img: "img/bakery/bread/multigrain-bread.webp",
+		img: "bakery/bread/multigrain-bread.webp",
 		price: 16,
 	},
 	{
@@ -150,7 +150,7 @@ let shopItemsData = [
 		type: "bread",
 		name: "Whole Grain Bread",
 		desc: "Made From Unprocessed Wheat, Whole Barley and Brown Rice",
-		img: "img/bakery/bread/whole-grain-bread.webp",
+		img: "bakery/bread/whole-grain-bread.webp",
 		price: 16,
 	},
 	{
@@ -159,7 +159,7 @@ let shopItemsData = [
 		type: "bread",
 		name: "Sprouted Grain Bread",
 		desc: "Made From Grains Exposed To Warm, Moist Conditions",
-		img: "img/bakery/bread/sprouted-grain-bread.webp",
+		img: "bakery/bread/sprouted-grain-bread.webp",
 		price: 25,
 	},
 	{
@@ -168,7 +168,7 @@ let shopItemsData = [
 		type: "bread",
 		name: "Sourdough Bread",
 		desc: "Made From Fermentation",
-		img: "img/bakery/bread/sourdough-bread.webp",
+		img: "bakery/bread/sourdough-bread.webp",
 		price: 28,
 	},
 	{
@@ -177,7 +177,7 @@ let shopItemsData = [
 		type: "bread",
 		name: "Rye Bread",
 		desc: "Made From Rye Grain",
-		img: "img/bakery/bread/rye-bread.webp",
+		img: "bakery/bread/rye-bread.webp",
 		price: 30,
 	},
 	{
@@ -186,7 +186,7 @@ let shopItemsData = [
 		type: "bread",
 		name: "Pumpernickel Bread",
 		desc: "Made From Coarsley ground Rye Grain And Fermented With Sourdough Starter",
-		img: "img/bakery/bread/pumpernickel-bread.webp",
+		img: "bakery/bread/pumpernickel-bread.webp",
 		price: 33,
 	},
 	{
@@ -195,7 +195,7 @@ let shopItemsData = [
 		type: "bread",
 		name: "Brioche",
 		desc: "Very Rich Bread Made With Additions Of Egg, Milk and Butter",
-		img: "img/bakery/bread/brioche-bread.webp",
+		img: "bakery/bread/brioche-bread.webp",
 		price: 35,
 	},
 	{
@@ -204,7 +204,7 @@ let shopItemsData = [
 		type: "bread",
 		name: "Challah",
 		desc: "Very Rich Bread Made With Additions Of Egg, Milk and Oil",
-		img: "img/bakery/bread/challah-bread.webp",
+		img: "bakery/bread/challah-bread.webp",
 		price: 35,
 	},
 	{
@@ -213,7 +213,7 @@ let shopItemsData = [
 		type: "bread",
 		name: "Flatbread",
 		desc: "Made From A Simple Mixture Of Flour, Water, and Salt",
-		img: "img/bakery/bread/flatbread.webp",
+		img: "bakery/bread/flatbread.webp",
 		price: 30,
 	},
 	{
@@ -222,7 +222,7 @@ let shopItemsData = [
 		type: "bread",
 		name: "Cornbread",
 		desc: "Made From Cornmeal With A Cake-Like Texture",
-		img: "img/bakery/bread/cornbread.webp",
+		img: "bakery/bread/cornbread.webp",
 		price: 25,
 	},
 	{
@@ -231,7 +231,7 @@ let shopItemsData = [
 		type: "bread",
 		name: "Baguette",
 		desc: "French Bread With Crunchy Exterior",
-		img: "img/bakery/bread/baguette.webp",
+		img: "bakery/bread/baguette.webp",
 		price: 23,
 	},
 	{
@@ -240,7 +240,7 @@ let shopItemsData = [
 		type: "bread",
 		name: "Ciabatta",
 		desc: "italian Bread With Similar Texture To A Baguette",
-		img: "img/bakery/bread/ciabatta.webp",
+		img: "bakery/bread/ciabatta.webp",
 		price: 25,
 	},
 	{
@@ -249,7 +249,7 @@ let shopItemsData = [
 		type: "bread",
 		name: "Soda Bread",
 		desc: "Made With Baking Soda, Nuts, and Seeds.",
-		img: "img/bakery/bread/soda-bread.webp",
+		img: "bakery/bread/soda-bread.webp",
 		price: 26,
 	},
 																														// Cake
@@ -259,7 +259,7 @@ let shopItemsData = [
 		type: "cake",
 		name: "Butter Cake",
 		desc: "Buttermilk-Raspberry Cake Baked And Presented As A Layer Cake",
-		img: "img/bakery/cake/butter-cake.webp",
+		img: "bakery/cake/butter-cake.webp",
 		price: 120,
 	},																							
 	{
@@ -268,7 +268,7 @@ let shopItemsData = [
 		type: "cake",
 		name: "Pound Cake",
 		desc: "Lemon-Olive Pound Cake With Poppy Seeds",
-		img: "img/bakery/cake/pound-cake.webp",
+		img: "bakery/cake/pound-cake.webp",
 		price: 90,
 	},
 	{
@@ -277,7 +277,7 @@ let shopItemsData = [
 		type: "cake",
 		name: "Sponge Cake",
 		desc: "Sponge Cake Filled With Meyer Lemon Curd, Served With Lavender Cream",
-		img: "img/bakery/cake/sponge-cake.webp",
+		img: "bakery/cake/sponge-cake.webp",
 		price: 109,
 	},
 	{
@@ -286,7 +286,7 @@ let shopItemsData = [
 		type: "cake",
 		name: "Biscuit Cake",
 		desc: "Made With A Light Batter That Holds Its Shape After Mixing",
-		img: "img/bakery/cake/biscuit-cake.webp",
+		img: "bakery/cake/biscuit-cake.webp",
 		price: 110,
 	},
 	{
@@ -295,7 +295,7 @@ let shopItemsData = [
 		type: "cake",
 		name: "Angel Food Cake",
 		desc: "Fluffy, Sweet and Light Cake Served With Fresh Whipped Cream And Seasonal Berries",
-		img: "img/bakery/cake/angel-food-cake.webp",
+		img: "bakery/cake/angel-food-cake.webp",
 		price: 150,
 	},
 	{
@@ -304,7 +304,7 @@ let shopItemsData = [
 		type: "cake",
 		name: "Baked Flourless Cake",
 		desc: "Naturally Gluten Free Flourless Chocolate  Cake",
-		img: "img/bakery/cake/baked-flourless-cake.webp",
+		img: "bakery/cake/baked-flourless-cake.webp",
 		price: 80,
 	},
 	{
@@ -313,7 +313,7 @@ let shopItemsData = [
 		type: "cake",
 		name: "Unbked Flourless Cake",
 		desc: "BlueBerry-Lemon Icebox Cake",
-		img: "img/bakery/cake/unbaked-flourless-cake.webp",
+		img: "bakery/cake/unbaked-flourless-cake.webp",
 		price: 105,
 	},
 	{
@@ -322,7 +322,7 @@ let shopItemsData = [
 		type: "cake",
 		name: "Carrot Cake",
 		desc: "Classic Carrot-Coconut Cake With A Healthy Dose Of Ginger, Cinnamon, and Cream Cheese Frosting Sprinkled with Coconut Flakes",
-		img: "img/bakery/cake/carrot-cake.webp",
+		img: "bakery/cake/carrot-cake.webp",
 		price: 180,
 	},
 	{
@@ -331,7 +331,7 @@ let shopItemsData = [
 		type: "cake",
 		name: "Red Velvet Cake",
 		desc: "Tender, Chocolate-y, Crumb Free Texture Topped With Smooth Cream Cheese Frosting",
-		img: "img/bakery/cake/red-velvet-cake.webp",
+		img: "bakery/cake/red-velvet-cake.webp",
 		price: 210,
 	},
 																													// Muffin
@@ -341,7 +341,7 @@ let shopItemsData = [
 		type: "muffin",
 		name: "Healthy Pumpkin Muffin",
 		desc: "Pumkin Spice latte In Muffin Form Topped With Some Hazlenuts",
-		img: "img/bakery/muffin/pumpkin-muffin.webp",
+		img: "bakery/muffin/pumpkin-muffin.webp",
 		price: 5,
 	},
 	{
@@ -350,7 +350,7 @@ let shopItemsData = [
 		type: "muffin",
 		name: "Keto Blueberry Muffin",
 		desc: "these Muffins Have Protein, Fruit, And Are Sugar Free",
-		img: "img/bakery/muffin/blueberry-muffin.webp",
+		img: "bakery/muffin/blueberry-muffin.webp",
 		price: 6,
 	},
 	{
@@ -359,7 +359,7 @@ let shopItemsData = [
 		type: "muffin",
 		name: "Chocolate Chip Muffin",
 		desc: "Perfect Crispy Top And Fluffy Center",
-		img: "img/bakery/muffin/choc-chip-muffin.webp",
+		img: "bakery/muffin/choc-chip-muffin.webp",
 		price: 6,
 	},
 	{
@@ -368,7 +368,7 @@ let shopItemsData = [
 		type: "muffin",
 		name: "Pecan Pie Muffin",
 		desc: "Perfect Crispy Top And Fluffy Center",
-		img: "img/bakery/muffin/pecan-pie-muffin.webp",
+		img: "bakery/muffin/pecan-pie-muffin.webp",
 		price: 6,
 	},
 	{
@@ -377,7 +377,7 @@ let shopItemsData = [
 		type: "muffin",
 		name: "Banana Nut Muffin",
 		desc: "Light And Moist, Full Of Toasted Walnuts",
-		img: "img/bakery/muffin/banana-nut-muffin.webp",
+		img: "bakery/muffin/banana-nut-muffin.webp",
 		price: 6,
 	},
 	{
@@ -386,7 +386,7 @@ let shopItemsData = [
 		type: "muffin",
 		name: "Cauliflower Breakfast Muffin",
 		desc: "No Carbs But Lots Of Cheese And Ham",
-		img: "img/bakery/muffin/cauliflower-breakfast-muffin.webp",
+		img: "bakery/muffin/cauliflower-breakfast-muffin.webp",
 		price: 9,
 	},
 	{
@@ -395,7 +395,7 @@ let shopItemsData = [
 		type: "muffin",
 		name: "Hash Brown Cup Muffin",
 		desc: "Full On The Go Breakfast Muffin",
-		img: "img/bakery/muffin/hash-brown-muffin.webp",
+		img: "bakery/muffin/hash-brown-muffin.webp",
 		price: 10,
 	},
 	{
@@ -404,7 +404,7 @@ let shopItemsData = [
 		type: "muffin",
 		name: "Deep Dish Pizza Muffin",
 		desc: "A Deep Dish Pizza A Muffin",
-		img: "img/bakery/muffin/deep-dish-muffin.webp",
+		img: "bakery/muffin/deep-dish-muffin.webp",
 		price: 12,
 	},
 	{
@@ -413,7 +413,7 @@ let shopItemsData = [
 		type: "muffin",
 		name: "Mocha Chip Muffins",
 		desc: "Sweet Chocolate Chips With A Little Espresso For An Extra Boost",
-		img: "img/bakery/muffin/mocha-chip-muffin.webp",
+		img: "bakery/muffin/mocha-chip-muffin.webp",
 		price: 11,
 	},
 	{
@@ -422,7 +422,7 @@ let shopItemsData = [
 		type: "pastry",
 		name: "Spinach Puffs",
 		desc: "Filled With A Mixture Of Sauteed Onion, Garlic, Spinach, And Cream Cheese",
-		img: "img/bakery/pastry/spinach-puffs.webp",
+		img: "bakery/pastry/spinach-puffs.webp",
 		price: 15,
 	},
 	{
@@ -431,7 +431,7 @@ let shopItemsData = [
 		type: "pastry",
 		name: "Mini Bacon Asparagus Quiches",
 		desc: "Classic Quiche With Bacon and Aparagus",
-		img: "img/bakery/pastry/bacon-asparagus-quiche.webp",
+		img: "bakery/pastry/bacon-asparagus-quiche.webp",
 		price: 24,
 	},
 	{
@@ -440,7 +440,7 @@ let shopItemsData = [
 		type: "pastry",
 		name: "Cheese Straws",
 		desc: "Crunchy, Flacky and Cheesy Straws",
-		img: "img/bakery/pastry/cheese-straw.webp",
+		img: "bakery/pastry/cheese-straw.webp",
 		price: 18,
 	},
 	{
@@ -449,7 +449,7 @@ let shopItemsData = [
 		type: "pastry",
 		name: "Giant Danish Tart",
 		desc: "Massive Danish Tart topped With Raspberry Jam",
-		img: "img/bakery/pastry/fruit-danish.webp",
+		img: "bakery/pastry/fruit-danish.webp",
 		price: 26,
 	},
 	{
@@ -458,7 +458,7 @@ let shopItemsData = [
 		type: "pastry",
 		name: "Broccoli Cheddar Hand Pies",
 		desc: "Made With Sauteed Brocoli Engulfed by Creamy Cheddar Cheese",
-		img: "img/bakery/pastry/broccoli-cheddar-pie.webp",
+		img: "bakery/pastry/broccoli-cheddar-pie.webp",
 		price: 18,
 	},
 	{
@@ -467,7 +467,7 @@ let shopItemsData = [
 		type: "pastry",
 		name: "Mushroom and Burrata Tart",
 		desc: "Delicious Mixture of Wild Mushroom and Burrata",
-		img: "img/bakery/pastry/mushroom-tart.webp",
+		img: "bakery/pastry/mushroom-tart.webp",
 		price: 30,
 	},
 	{
@@ -476,7 +476,7 @@ let shopItemsData = [
 		type: "pastry",
 		name: "Cherry Puff Pastry Pies",
 		desc: "Made With Oarganically Grown Cherries",
-		img: "img/bakery/pastry/cherry-pie.webp",
+		img: "bakery/pastry/cherry-pie.webp",
 		price: 28,
 	},
 	{
@@ -485,7 +485,7 @@ let shopItemsData = [
 		type: "pastry",
 		name: "Asparagus And Chive Tart",
 		desc: "Fresh Asparagus In A Buttery Crust",
-		img: "img/bakery/pastry/asparagus-chive-tart.webp",
+		img: "bakery/pastry/asparagus-chive-tart.webp",
 		price: 25,
 	},
 	{
@@ -494,7 +494,7 @@ let shopItemsData = [
 		type: "beef",
 		name: "Hanger Steak",
 		desc: "Marinating Optional, Remove Center Membrane Before Cooking",
-		img: "img/butchery/beef/hanger-steak.webp",
+		img: "butchery/beef/hanger-steak.webp",
 		price: 100,
 	},
 	{
@@ -503,7 +503,7 @@ let shopItemsData = [
 		type: "beef",
 		name: "Top Blade/Flat Iron Steak",
 		desc: "Marinating Recommended, Well Marbled But Fairly Lean",
-		img: "img/butchery/beef/top-blade-steak.webp",
+		img: "butchery/beef/top-blade-steak.webp",
 		price: 90,
 	},
 	{
@@ -512,7 +512,7 @@ let shopItemsData = [
 		type: "beef",
 		name: "Tri Tip Steak",
 		desc: "Marinating Recommended, Thick And Lean",
-		img: "img/butchery/beef/tri-tip-steak.webp",
+		img: "butchery/beef/tri-tip-steak.webp",
 		price: 80,
 	},
 	{
@@ -521,7 +521,7 @@ let shopItemsData = [
 		type: "beef",
 		name: "Rib-Eye Steak",
 		desc: "Marinating Optional, Well Marbled",
-		img: "img/butchery/beef/rib-eye-steak.webp",
+		img: "butchery/beef/rib-eye-steak.webp",
 		price: 150,
 	},
 	{
@@ -530,7 +530,7 @@ let shopItemsData = [
 		type: "beef",
 		name: "Sirloin",
 		desc: "Marinating Recommended, Extra Lean",
-		img: "img/butchery/beef/sirloin-steak.webp",
+		img: "butchery/beef/sirloin-steak.webp",
 		price: 120,
 	},
 	{
@@ -539,7 +539,7 @@ let shopItemsData = [
 		type: "beef",
 		name: "Skirt Steak",
 		desc: "Marinating Optional, Long and Thin, Cooks Quickly",
-		img: "img/butchery/beef/skirt-steak.webp",
+		img: "butchery/beef/skirt-steak.webp",
 		price: 110,
 	},
 	{
@@ -548,7 +548,7 @@ let shopItemsData = [
 		type: "beef",
 		name: "T-Bone Steak",
 		desc: "Marinating Not Necessary",
-		img: "img/butchery/beef/t-bone-steak.webp",
+		img: "butchery/beef/t-bone-steak.webp",
 		price: 160,
 	},
 	{
@@ -557,7 +557,7 @@ let shopItemsData = [
 		type: "beef",
 		name: "Strip Steak",
 		desc: "Marinating Optional, Lean But Tender",
-		img: "img/butchery/beef/strip-steak.webp",
+		img: "butchery/beef/strip-steak.webp",
 		price: 130,
 	},
 	{
@@ -566,7 +566,7 @@ let shopItemsData = [
 		type: "beef",
 		name: "Fillet Mignon/Tenderloin Steak",
 		desc: "Marinating Not Necessary, Tie Twine Around Side For Even Cooking",
-		img: "img/butchery/beef/fillet-mignon.webp",
+		img: "butchery/beef/fillet-mignon.webp",
 		price: 140,
 	},
 	{
@@ -575,7 +575,7 @@ let shopItemsData = [
 		type: "beef",
 		name: "Flank Steak",
 		desc: "Marinating Recommended, Lean, Can Be Tough, Best Thinly Sliced",
-		img: "img/butchery/beef/flank-steak.webp",
+		img: "butchery/beef/flank-steak.webp",
 		price: 70,
 	},
 	{
@@ -584,7 +584,7 @@ let shopItemsData = [
 		type: "poultry",
 		name: "Full Chicken",
 		desc: "Free Range Full Chicken",
-		img: "img/butchery/poultry/full-chicken.webp",
+		img: "butchery/poultry/full-chicken.webp",
 		price: 70,
 	},
 	{
@@ -593,7 +593,7 @@ let shopItemsData = [
 		type: "poultry",
 		name: "Chicken Breasts",
 		desc: "Boneless and Skinless Chicken Breast",
-		img: "img/butchery/poultry/chicken-breast.webp",
+		img: "butchery/poultry/chicken-breast.webp",
 		price: 30,
 	},
 	{
@@ -602,7 +602,7 @@ let shopItemsData = [
 		type: "poultry",
 		name: "Chicken Drumsticks",
 		desc: "Boned Freerange Drumstick",
-		img: "img/butchery/poultry/chicken-drumstick.webp",
+		img: "butchery/poultry/chicken-drumstick.webp",
 		price: 25,
 	},
 	{
@@ -611,7 +611,7 @@ let shopItemsData = [
 		type: "poultry",
 		name: "Chicken Wings",
 		desc: "Freerange Drumlettes And Mid-Joint Wings",
-		img: "img/butchery/poultry/chicken-wing.webp",
+		img: "butchery/poultry/chicken-wing.webp",
 		price: 20,
 	},
 	{
@@ -620,7 +620,7 @@ let shopItemsData = [
 		type: "poultry",
 		name: "Chicken Ham",
 		desc: "Lower Part Of The Chicken Leg",
-		img: "img/butchery/poultry/chicken-ham.webp",
+		img: "butchery/poultry/chicken-ham.webp",
 		price: 30,
 	},
 	{
@@ -629,7 +629,7 @@ let shopItemsData = [
 		type: "poultry",
 		name: "Chicken Thigh",
 		desc: "Upper Part Of The Chicken Leg",
-		img: "img/butchery/poultry/chicken-thigh.webp",
+		img: "butchery/poultry/chicken-thigh.webp",
 		price: 32,
 	},
 	{
@@ -638,7 +638,7 @@ let shopItemsData = [
 		type: "poultry",
 		name: "Chicken Liver",
 		desc: "Livers From Free Range Chickens",
-		img: "img/butchery/poultry/chicken-liver.webp",
+		img: "butchery/poultry/chicken-liver.webp",
 		price: 15,
 	},
 	{
@@ -647,7 +647,7 @@ let shopItemsData = [
 		type: "poultry",
 		name: "Chicken Gizzards",
 		desc: "Gizzards From Free Range Chickens",
-		img: "img/butchery/poultry/chicken-gizzard.webp",
+		img: "butchery/poultry/chicken-gizzard.webp",
 		price: 16,
 	},
 	{
@@ -656,7 +656,7 @@ let shopItemsData = [
 		type: "lamb",
 		name: "Lamb Neck",
 		desc: "Perfect for Kebabs Or Stews",
-		img: "img/butchery/lamb/lamb-neck.webp",
+		img: "butchery/lamb/lamb-neck.webp",
 		price: 140,
 	},
 	{
@@ -665,7 +665,7 @@ let shopItemsData = [
 		type: "lamb",
 		name: "Lamb Neck Fillet",
 		desc: "Tough Cut Perfect For Slow Cooking",
-		img: "img/butchery/lamb/lamb-neck-fillet.webp",
+		img: "butchery/lamb/lamb-neck-fillet.webp",
 		price: 130,
 	},
 	{
@@ -674,7 +674,7 @@ let shopItemsData = [
 		type: "lamb",
 		name: "Lamb Rack",
 		desc: "Highly Tender And Delicious Cut of Meat",
-		img: "img/butchery/lamb/lamb-rack.webp",
+		img: "butchery/lamb/lamb-rack.webp",
 		price: 230,
 	},
 	{
@@ -683,7 +683,7 @@ let shopItemsData = [
 		type: "lamb",
 		name: "Shoulder of Lamb",
 		desc: "Very Lean With Some Good Marbling, And Quite Flavourfull",
-		img: "img/butchery/lamb/lamb-shoulder.webp",
+		img: "butchery/lamb/lamb-shoulder.webp",
 		price: 180,
 	},
 	{
@@ -692,7 +692,7 @@ let shopItemsData = [
 		type: "lamb",
 		name: "Lamb Chop",
 		desc: "Tender and Flavourfull",
-		img: "img/butchery/lamb/lamb-chop.webp",
+		img: "butchery/lamb/lamb-chop.webp",
 		price: 140,
 	},
 	{
@@ -701,7 +701,7 @@ let shopItemsData = [
 		type: "lamb",
 		name: "Lamb Rump",
 		desc: "Cut From Back of The Lamb. Lean, Tender And Full Of Flavour",
-		img: "img/butchery/lamb/lamb-rump.webp",
+		img: "butchery/lamb/lamb-rump.webp",
 		price: 170,
 	},
 	{
@@ -710,7 +710,7 @@ let shopItemsData = [
 		type: "lamb",
 		name: "Lamb Loin Chop",
 		desc: "Lean Tender And Deliciously Flavourfull ",
-		img: "img/butchery/lamb/lamb-loin-chop.webp",
+		img: "butchery/lamb/lamb-loin-chop.webp",
 		price: 150,
 	},
 	{
@@ -719,7 +719,7 @@ let shopItemsData = [
 		type: "lamb",
 		name: "Leg of Lamb",
 		desc: "Most Tender Cut Of Meat On A Lamb",
-		img: "img/butchery/lamb/leg-of-lamb.webp",
+		img: "butchery/lamb/leg-of-lamb.webp",
 		price: 250,
 	},
 	{
@@ -728,7 +728,7 @@ let shopItemsData = [
 		type: "lamb",
 		name: "Lamb Shank",
 		desc: "Lean Cut But Still Big On Flavour. Contains Large Amounts Of Collagen",
-		img: "img/butchery/lamb/lamb-shank.webp",
+		img: "butchery/lamb/lamb-shank.webp",
 		price: 200,
 	},
 	{
@@ -737,7 +737,7 @@ let shopItemsData = [
 		type: "pork",
 		name: "Pork Belly",
 		desc: "Long Cut of Pork Belly With Plenty Of Fat Worked Into The Meat",
-		img: "img/butchery/pork/pork-belly.webp",
+		img: "butchery/pork/pork-belly.webp",
 		price: 220,
 	},
 	{
@@ -746,7 +746,7 @@ let shopItemsData = [
 		type: "pork",
 		name: "Pork Loin Chops",
 		desc: "Thick, Boned Cut That Is Juice And Most Flavourfull",
-		img: "img/butchery/pork/pork-loin-chops.webp",
+		img: "butchery/pork/pork-loin-chops.webp",
 		price: 150,
 	},
 	{
@@ -755,7 +755,7 @@ let shopItemsData = [
 		type: "pork",
 		name: "Pork Shoulder Chops",
 		desc: "Fattier and Tougher Than Other Chop Cuts",
-		img: "img/butchery/pork/pork-shoulder-chops.webp",
+		img: "butchery/pork/pork-shoulder-chops.webp",
 		price: 110,
 	},
 	{
@@ -764,7 +764,7 @@ let shopItemsData = [
 		type: "pork",
 		name: "Pork Loin",
 		desc: "Leanest And Most Tender Pork Cut",
-		img: "img/butchery/pork/pork-loin.webp",
+		img: "butchery/pork/pork-loin.webp",
 		price: 180,
 	},
 	{
@@ -773,7 +773,7 @@ let shopItemsData = [
 		type: "pork",
 		name: "Pork Roast",
 		desc: "Lean Moist And Flavourfull",
-		img: "img/butchery/pork/pork-roast.webp",
+		img: "butchery/pork/pork-roast.webp",
 		price: 200,
 	},
 	{
@@ -782,7 +782,7 @@ let shopItemsData = [
 		type: "pork",
 		name: "Pork Loin Ribs",
 		desc: "Meatiest And fattiest Pork Ribs",
-		img: "img/butchery/pork/pork-loin-ribs.webp",
+		img: "butchery/pork/pork-loin-ribs.webp",
 		price: 190,
 	},
 	{
@@ -791,7 +791,7 @@ let shopItemsData = [
 		type: "pork",
 		name: "Pork Spare Ribs",
 		desc: "Least Meaty Pork Ribs",
-		img: "img/butchery/pork/pork-spare-ribs.webp",
+		img: "butchery/pork/pork-spare-ribs.webp",
 		price: 210,
 	},
 	{
@@ -800,7 +800,7 @@ let shopItemsData = [
 		type: "pork",
 		name: "Pork Tenderloin",
 		desc: "Lean, Tender, Boneless",
-		img: "img/butchery/pork/pork-tenderloin.webp",
+		img: "butchery/pork/pork-tenderloin.webp",
 		price: 200,
 	},
 	{
@@ -809,7 +809,7 @@ let shopItemsData = [
 		type: "pork",
 		name: "Pork Shank",
 		desc: "Great Flavourfull Cut For Broths",
-		img: "img/butchery/pork/pork-shank.webp",
+		img: "butchery/pork/pork-shank.webp",
 		price: 140,
 	},
 	{
@@ -818,7 +818,7 @@ let shopItemsData = [
 		type: "pork",
 		name: "Pork Trotters",
 		desc: "Tough Cut of Meaty Flavour",
-		img: "img/butchery/pork/pork-trotters.webp",
+		img: "butchery/pork/pork-trotters.webp",
 		price: 100,
 	},
 	{
@@ -827,7 +827,7 @@ let shopItemsData = [
 		type: "butter",
 		name: "Unsalted Butter",
 		desc: "Mildly Sweet Butter, Best For Baking",
-		img: "img/dairy/butter/unsalted-butter.webp",
+		img: "dairy/butter/unsalted-butter.webp",
 		price: 26,
 	},
 	{
@@ -836,7 +836,7 @@ let shopItemsData = [
 		type: "butter",
 		name: "Salted Butter",
 		desc: "Extra Salt Helps Flaavours In Recipes",
-		img: "img/dairy/butter/salted-butter.webp",
+		img: "dairy/butter/salted-butter.webp",
 		price: 28,
 	},
 	{
@@ -845,7 +845,7 @@ let shopItemsData = [
 		type: "butter",
 		name: "Sweet Cream Butter",
 		desc: "Butter Made From Sweet Cream",
-		img: "img/dairy/butter/sweet-cream-butter.webp",
+		img: "dairy/butter/sweet-cream-butter.webp",
 		price: 30,
 	},
 	{
@@ -854,7 +854,7 @@ let shopItemsData = [
 		type: "butter",
 		name: "Cultured Butter",
 		desc: "Hand Crafted Artisan Butter",
-		img: "img/dairy/butter/cultured-butter.webp",
+		img: "dairy/butter/cultured-butter.webp",
 		price: 35,
 	},
 	{
@@ -863,7 +863,7 @@ let shopItemsData = [
 		type: "butter",
 		name: "Ghee",
 		desc: "Higher Smoke Point And A RIcher, Fuller Flavour",
-		img: "img/dairy/butter/ghee.webp",
+		img: "dairy/butter/ghee.webp",
 		price: 38,
 	},
 	{
@@ -872,7 +872,7 @@ let shopItemsData = [
 		type: "butter",
 		name: "Organic Butter",
 		desc: "Comes From Cows Only Given Food That Was Pesticide and Fertilizer Free",
-		img: "img/dairy/butter/organic-butter.webp",
+		img: "dairy/butter/organic-butter.webp",
 		price: 35,
 	},
 	{
@@ -881,7 +881,7 @@ let shopItemsData = [
 		type: "butter",
 		name: "Butter Spread/Margarine",
 		desc: "Mixture Of Butter And Vegetable Oil",
-		img: "img/dairy/butter/margarine.webp",
+		img: "dairy/butter/margarine.webp",
 		price: 25,
 	},
 	{
@@ -890,7 +890,7 @@ let shopItemsData = [
 		type: "butter",
 		name: "Whipped Butter",
 		desc: "Softened Butter With Fluffy And Airy Texture",
-		img: "img/dairy/butter/whipped-butter.webp",
+		img: "dairy/butter/whipped-butter.webp",
 		price: 25,
 	},
 	{
@@ -899,7 +899,7 @@ let shopItemsData = [
 		type: "butter",
 		name: "Goat Butter",
 		desc: "Butter Made From Goat Milk",
-		img: "img/dairy/butter/goat-butter.webp",
+		img: "dairy/butter/goat-butter.webp",
 		price: 30,
 	},
 	{
@@ -908,7 +908,7 @@ let shopItemsData = [
 		type: "cheese",
 		name: "Roquefort",
 		desc: "Has A Moist Crumbly Paste And Sharp, Sweet And Nutty Flavour",
-		img: "img/dairy/cheese/roquefort.webp",
+		img: "dairy/cheese/roquefort.webp",
 		price: 36,
 	},
 	{
@@ -917,7 +917,7 @@ let shopItemsData = [
 		type: "cheese",
 		name: "Camembert",
 		desc: "Rich, Buttery, And Spreadable. Has A Mild, Mushroomy Aroma",
-		img: "img/dairy/cheese/camembert.webp",
+		img: "dairy/cheese/camembert.webp",
 		price: 40,
 	},
 	{
@@ -926,7 +926,7 @@ let shopItemsData = [
 		type: "cheese",
 		name: "Feta",
 		desc: "Tandy And Moist, Crumbly And Moderately Creamy",
-		img: "img/dairy/cheese/feta.webp",
+		img: "dairy/cheese/feta.webp",
 		price: 34,
 	},
 	{
@@ -935,7 +935,7 @@ let shopItemsData = [
 		type: "cheese",
 		name: "Mozzarella",
 		desc: "Fresh And Dairy Rich. Great texture And Creamy Flavour",
-		img: "img/dairy/cheese/mozzarella.webp",
+		img: "dairy/cheese/mozzarella.webp",
 		price: 39,
 	},
 	{
@@ -944,7 +944,7 @@ let shopItemsData = [
 		type: "cheese",
 		name: "Cheddar",
 		desc: "Dry And Crumbly In Texture, With A Deep, Tangy, Nutty Flavour",
-		img: "img/dairy/cheese/cheddar.webp",
+		img: "dairy/cheese/cheddar.webp",
 		price: 40,
 	},
 	{
@@ -953,7 +953,7 @@ let shopItemsData = [
 		type: "cheese",
 		name: "Parmesan",
 		desc: "Hard, Dry Crumbly Cheese That has A Great Crunch And Deep Caramel-y, Nutty Flavours",
-		img: "img/dairy/cheese/parmesan.webp",
+		img: "dairy/cheese/parmesan.webp",
 		price: 42,
 	},
 	{
@@ -962,7 +962,7 @@ let shopItemsData = [
 		type: "cheese",
 		name: "Danish Blue",
 		desc: "Savoury And Sweet",
-		img: "img/dairy/cheese/danish-blue.webp",
+		img: "dairy/cheese/danish-blue.webp",
 		price: 38,
 	},
 	{
@@ -971,7 +971,7 @@ let shopItemsData = [
 		type: "cheese",
 		name: "Brie",
 		desc: "Placid and Unoffensive, Buttery With A Hint Of Sauteed White Button Mushroom",
-		img: "img/dairy/cheese/brie.webp",
+		img: "dairy/cheese/brie.webp",
 		price: 42,
 	},
 	{
@@ -980,7 +980,7 @@ let shopItemsData = [
 		type: "cheese",
 		name: "Ricotta",
 		desc: "Sweet, Fresh and Creamy",
-		img: "img/dairy/cheese/ricotta.webp",
+		img: "dairy/cheese/ricotta.webp",
 		price: 34,
 	},{
 		id: "y9e6485ca62440e490d7e3ad225060de",
@@ -988,7 +988,7 @@ let shopItemsData = [
 		type: "cheese",
 		name: "Cream Cheese",
 		desc: "Mild Sweet Taste With A Pleasant Slight Tang",
-		img: "img/dairy/cheese/cream-cheese.webp",
+		img: "dairy/cheese/cream-cheese.webp",
 		price: 30,
 	},
 	{
@@ -997,7 +997,7 @@ let shopItemsData = [
 		type: "cheese",
 		name: "Gorgonzola",
 		desc: "Full flavoured, Salty, and Earthy",
-		img: "img/dairy/cheese/gorgonzola.webp",
+		img: "dairy/cheese/gorgonzola.webp",
 		price: 40,
 	},
 	{
@@ -1006,7 +1006,7 @@ let shopItemsData = [
 		type: "cream",
 		name: "Heavy Cream",
 		desc: "30-36% fat",
-		img: "img/dairy/cream/heavy-cream.webp",
+		img: "dairy/cream/heavy-cream.webp",
 		price: 36,
 	},
 	{
@@ -1015,7 +1015,7 @@ let shopItemsData = [
 		type: "cream",
 		name: "Double Cream",
 		desc: "43-48% fat",
-		img: "img/dairy/cream/double-cream.webp",
+		img: "dairy/cream/double-cream.webp",
 		price: 38,
 	},
 	{
@@ -1024,7 +1024,7 @@ let shopItemsData = [
 		type: "cream",
 		name: "Clotted Cream",
 		desc: "Higher fat Content than Double Cream",
-		img: "img/dairy/cream/clotted-cream.webp",
+		img: "dairy/cream/clotted-cream.webp",
 		price: 40,
 	},
 	{
@@ -1033,7 +1033,7 @@ let shopItemsData = [
 		type: "cream",
 		name: "Sour Cream",
 		desc: "10-19% Fat, Lacto Balcillus Added For Tangy Taste",
-		img: "img/dairy/cream/sour-cream.webp",
+		img: "dairy/cream/sour-cream.webp",
 		price: 30,
 	},
 	{
@@ -1042,7 +1042,7 @@ let shopItemsData = [
 		type: "cream",
 		name: "Creme Fraiche",
 		desc: "38-48% Fat, Lacto Balcillus Added For Tangy Taste",
-		img: "img/dairy/cream/creme-fraiche.webp",
+		img: "dairy/cream/creme-fraiche.webp",
 		price: 39,
 	},
 	{
@@ -1051,7 +1051,7 @@ let shopItemsData = [
 		type: "cream",
 		name: "Marscapone",
 		desc: "70% Fat",
-		img: "img/dairy/cream/marscapone.webp",
+		img: "dairy/cream/marscapone.webp",
 		price: 45,
 	},
 	{
@@ -1060,7 +1060,7 @@ let shopItemsData = [
 		type: "cream",
 		name: "Buttermilk",
 		desc: "Liquid Which Remains when Cream Is Churned To Form Butter",
-		img: "img/dairy/cream/buttermilk.webp",
+		img: "dairy/cream/buttermilk.webp",
 		price: 28,
 	},
 	{
@@ -1069,7 +1069,7 @@ let shopItemsData = [
 		type: "ice-cream",
 		name: "Confetti Cookie Gelato Layers",
 		desc: "Vanilla Gelato, Vanilla Cookie Pieces, Pink Frosting, Rainbow Sprinkles",
-		img: "img/dairy/ice-cream/confetti-cookie-gelato.webp",
+		img: "dairy/ice-cream/confetti-cookie-gelato.webp",
 		price: 110,
 	},
 	{
@@ -1078,7 +1078,7 @@ let shopItemsData = [
 		type: "ice-cream",
 		name: "Strawberry Shortcake Gelato Layers",
 		desc: "Strawberry Shortcake, Shortbread Pieces, Tart Starwberry Rhubarb Sauce",
-		img: "img/dairy/ice-cream/strawberry-shortcake-gelato.webp",
+		img: "dairy/ice-cream/strawberry-shortcake-gelato.webp",
 		price: 115,
 	},
 	{
@@ -1087,7 +1087,7 @@ let shopItemsData = [
 		type: "ice-cream",
 		name: "Cookies And Cream Gelato Layers",
 		desc: "Cookies And Cream Gelato, Vanilla, Sweet Dulce De Leche, Pieces Of Chocolate Cookies, Cookie Crumbs",
-		img: "img/dairy/ice-cream/cookies-and-cream-gelato.webp",
+		img: "dairy/ice-cream/cookies-and-cream-gelato.webp",
 		price: 115,
 	},
 	{
@@ -1096,7 +1096,7 @@ let shopItemsData = [
 		type: "ice-cream",
 		name: "Chocolate Pretzel Gelato Layers",
 		desc: "Salty Pretzel And Vanilla Gelato Bases, Crunchy Waffle Cone Pieces, Salted Pretzel Sauce",
-		img: "img/dairy/ice-cream/chocolate-pretzel-gelato.webp",
+		img: "dairy/ice-cream/chocolate-pretzel-gelato.webp",
 		price: 120,
 	},
 	{
@@ -1105,7 +1105,7 @@ let shopItemsData = [
 		type: "ice-cream",
 		name: "Honey Graham Gelato",
 		desc: "Creamy Vanilla Gelato, Sweet Wildflower Honey, Golden Graham Crackers",
-		img: "img/dairy/ice-cream/honey-graham-gelato.webp",
+		img: "dairy/ice-cream/honey-graham-gelato.webp",
 		price: 120,
 	},
 	{
@@ -1114,7 +1114,7 @@ let shopItemsData = [
 		type: "ice-cream",
 		name: "Peanut Butter Vanilla Swirl Gelato",
 		desc: "Vanilla Gelato, Creamy Roasted Peanut Butter Swirl, Mini Peanut Butter Cups",
-		img: "img/dairy/ice-cream/vanilla-peanut-butter-swirl-gelato.webp",
+		img: "dairy/ice-cream/vanilla-peanut-butter-swirl-gelato.webp",
 		price: 120,
 	},
 	{
@@ -1123,7 +1123,7 @@ let shopItemsData = [
 		type: "milk",
 		name: "Skim Milk",
 		desc: "80 Calories, 0g Fat, 12g Carbs, 11g Sugar, 8g Protein",
-		img: "img/dairy/milk/skim-milk.webp",
+		img: "dairy/milk/skim-milk.webp",
 		price: 14,
 	},
 	{
@@ -1132,7 +1132,7 @@ let shopItemsData = [
 		type: "milk",
 		name: "1% Milk",
 		desc: "100 Calories, 2.5g Fat, 12g Carbs, 12g Sugar, 8g Protein",
-		img: "img/dairy/milk/one-percent-milk.webp",
+		img: "dairy/milk/one-percent-milk.webp",
 		price: 16,
 	},
 	{
@@ -1141,7 +1141,7 @@ let shopItemsData = [
 		type: "milk",
 		name: "2% Milk",
 		desc: "120 Calories, 5g Fat, 12g Carbs, 12g Sugar, 8g Protein",
-		img: "img/dairy/milk/two-percent-milk.webp",
+		img: "dairy/milk/two-percent-milk.webp",
 		price: 18,
 	},
 	{
@@ -1150,7 +1150,7 @@ let shopItemsData = [
 		type: "milk",
 		name: "Whole Milk",
 		desc: "150 Calories, 8g Fat, 12g Carbs, 12g Sugar, 8g Protein",
-		img: "img/dairy/milk/whole-milk.webp",
+		img: "dairy/milk/whole-milk.webp",
 		price: 18,
 	},
 	{
@@ -1159,7 +1159,7 @@ let shopItemsData = [
 		type: "milk",
 		name: "Soy Milk",
 		desc: "110 Calories, 4.5g Fat, 9g Carbs, 6g Sugar, 8g Protein",
-		img: "img/dairy/milk/soy-milk.webp",
+		img: "dairy/milk/soy-milk.webp",
 		price: 18,
 	},
 	{
@@ -1168,7 +1168,7 @@ let shopItemsData = [
 		type: "milk",
 		name: "Coconut Milk",
 		desc: "70 Calories, 4.5g Fat, 6g Carbs, 5g Sugar, 0g Protein",
-		img: "img/dairy/milk/coconut-milk.webp",
+		img: "dairy/milk/coconut-milk.webp",
 		price: 20,
 	},
 	{
@@ -1177,7 +1177,7 @@ let shopItemsData = [
 		type: "milk",
 		name: "Unsweetened Coconut Milk",
 		desc: "40 Calories, 4g Fat, 1g Carbs, 0g Sugar, 0g Protein",
-		img: "img/dairy/milk/unsweetened-coconut-milk.webp",
+		img: "dairy/milk/unsweetened-coconut-milk.webp",
 		price: 25,
 	},
 	{
@@ -1186,7 +1186,7 @@ let shopItemsData = [
 		type: "milk",
 		name: "Unsweetened Almond Milk",
 		desc: "25 Calories, 2g Fat, 1g Carbs, 0g Sugar, 1g Protein",
-		img: "img/dairy/milk/unsweetened-almond-milk.webp",
+		img: "dairy/milk/unsweetened-almond-milk.webp",
 		price: 36,
 	},
 	{
@@ -1195,7 +1195,7 @@ let shopItemsData = [
 		type: "milk",
 		name: "Sweetened Almond Milk",
 		desc: "60 Calories, 2.5g Fat, 8g Carbs, 7g Sugar, 1g Protein",
-		img: "img/dairy/milk/sweetened-almond-milk.webp",
+		img: "dairy/milk/sweetened-almond-milk.webp",
 		price: 30,
 	},
 	{
@@ -1204,7 +1204,7 @@ let shopItemsData = [
 		type: "milk",
 		name: "Oat Milk",
 		desc: "100 Calories, 6g Fat, 11g Carbs, 8g Sugar, 2g Protein",
-		img: "img/dairy/milk/oat-milk.webp",
+		img: "dairy/milk/oat-milk.webp",
 		price: 38,
 	},
 	{
@@ -1213,7 +1213,7 @@ let shopItemsData = [
 		type: "yogurt",
 		name: "Plain Yogurt",
 		desc: "Sour And Tart Taste",
-		img: "img/dairy/yogurt/plain-yogurt.webp",
+		img: "dairy/yogurt/plain-yogurt.webp",
 		price: 20,
 	},
 	{
@@ -1222,7 +1222,7 @@ let shopItemsData = [
 		type: "yogurt",
 		name: "Organic Plain Yogurt",
 		desc: "Produced Using No GMOs, Sewage Sludge or Irradiation",
-		img: "img/dairy/yogurt/organic-plain-yogurt.webp",
+		img: "dairy/yogurt/organic-plain-yogurt.webp",
 		price: 25,
 	},
 	{
@@ -1231,7 +1231,7 @@ let shopItemsData = [
 		type: "yogurt",
 		name: "Whole Milk Yogurt",
 		desc: "Made From Milk that Has All Its Components, Contains 4% Fat",
-		img: "img/dairy/yogurt/whole-milk-yogurt.webp",
+		img: "dairy/yogurt/whole-milk-yogurt.webp",
 		price: 30,
 	},
 	{
@@ -1240,7 +1240,7 @@ let shopItemsData = [
 		type: "yogurt",
 		name: "Probiotic Yogurt",
 		desc: "Contains Streptococcus thermophilus and Lactobacillus bulgaricus",
-		img: "img/dairy/yogurt/probiotic-yogurt.webp",
+		img: "dairy/yogurt/probiotic-yogurt.webp",
 		price: 28,
 	},
 	{
@@ -1249,7 +1249,7 @@ let shopItemsData = [
 		type: "yogurt",
 		name: "Greek Yogurt",
 		desc: "More Protein, Less Sugar",
-		img: "img/dairy/yogurt/greek-yogurt.webp",
+		img: "dairy/yogurt/greek-yogurt.webp",
 		price: 29,
 	},
 	{
@@ -1258,7 +1258,7 @@ let shopItemsData = [
 		type: "yogurt",
 		name: "Cashewmilk Yogurt",
 		desc: "Non-Dairy Yogurt Alternative Rich In Probiotic Goodness",
-		img: "img/dairy/yogurt/cashewmilk-yogurt.webp",
+		img: "dairy/yogurt/cashewmilk-yogurt.webp",
 		price: 35,
 	},
 	{
@@ -1267,7 +1267,7 @@ let shopItemsData = [
 		type: "fruit",
 		name: "Granny Smith Apple",
 		desc: "Apples And Pears",
-		img: "img/fresh/fruit/apple.webp",
+		img: "fresh/fruit/apple.webp",
 		price: 5,
 	},
 	{
@@ -1276,7 +1276,7 @@ let shopItemsData = [
 		type: "fruit",
 		name: "Pear",
 		desc: "Apples And Pears",
-		img: "img/fresh/fruit/pear.webp",
+		img: "fresh/fruit/pear.webp",
 		price: 6,
 	},
 	{
@@ -1285,7 +1285,7 @@ let shopItemsData = [
 		type: "fruit",
 		name: "Orange",
 		desc: "Citrus",
-		img: "img/fresh/fruit/orange.webp",
+		img: "fresh/fruit/orange.webp",
 		price: 6,
 	},
 	{
@@ -1294,7 +1294,7 @@ let shopItemsData = [
 		type: "fruit",
 		name: "Grape Fruit",
 		desc: "Citrus",
-		img: "img/fresh/fruit/grapefruit.webp",
+		img: "fresh/fruit/grapefruit.webp",
 		price: 7,
 	},
 	{
@@ -1303,7 +1303,7 @@ let shopItemsData = [
 		type: "fruit",
 		name: "Mandarin",
 		desc: "Citrus",
-		img: "img/fresh/fruit/mandarin.webp",
+		img: "fresh/fruit/mandarin.webp",
 		price: 4,
 	},
 	{
@@ -1312,7 +1312,7 @@ let shopItemsData = [
 		type: "fruit",
 		name: "Banana",
 		desc: "Tropical",
-		img: "img/fresh/fruit/banana.webp",
+		img: "fresh/fruit/banana.webp",
 		price: 8,
 	},
 	{
@@ -1321,7 +1321,7 @@ let shopItemsData = [
 		type: "fruit",
 		name: "Mango",
 		desc: "Tropical",
-		img: "img/fresh/fruit/mango.webp",
+		img: "fresh/fruit/mango.webp",
 		price: 9,
 	},
 	{
@@ -1330,7 +1330,7 @@ let shopItemsData = [
 		type: "fruit",
 		name: "Starwberries",
 		desc: "Berries",
-		img: "img/fresh/fruit/strawberries.webp",
+		img: "fresh/fruit/strawberries.webp",
 		price: 15,
 	},
 	{
@@ -1339,7 +1339,7 @@ let shopItemsData = [
 		type: "fruit",
 		name: "Blueberries",
 		desc: "Berries",
-		img: "img/fresh/fruit/blueberries.webp",
+		img: "fresh/fruit/blueberries.webp",
 		price: 20,
 	},
 	{
@@ -1348,7 +1348,7 @@ let shopItemsData = [
 		type: "fruit",
 		name: "Kiwi Fruit",
 		desc: "Berries",
-		img: "img/fresh/fruit/kiwi-fruit.webp",
+		img: "fresh/fruit/kiwi-fruit.webp",
 		price: 14,
 	},
 	{
@@ -1357,7 +1357,7 @@ let shopItemsData = [
 		type: "fruit",
 		name: "Watermelon",
 		desc: "Melons",
-		img: "img/fresh/fruit/watermelon.webp",
+		img: "fresh/fruit/watermelon.webp",
 		price: 25,
 	},
 	{
@@ -1366,7 +1366,7 @@ let shopItemsData = [
 		type: "fruit",
 		name: "Plum",
 		desc: "Stone Fruit",
-		img: "img/fresh/fruit/plum.webp",
+		img: "fresh/fruit/plum.webp",
 		price: 12,
 	},
 	{
@@ -1375,7 +1375,7 @@ let shopItemsData = [
 		type: "herbs",
 		name: "Sage",
 		desc: "Works Well With Pork, Bean, Potato, And Cheese Dishes",
-		img: "img/fresh/herbs/sage.webp",
+		img: "fresh/herbs/sage.webp",
 		price: 20,
 	},
 	{
@@ -1384,7 +1384,7 @@ let shopItemsData = [
 		type: "herbs",
 		name: "Thyme",
 		desc: "WorkS Well With Any Kind Of Meat, Poultry, Fish, And Vegetable Dishes",
-		img: "img/fresh/herbs/thyme.webp",
+		img: "fresh/herbs/thyme.webp",
 		price: 20,
 	},
 	{
@@ -1393,7 +1393,7 @@ let shopItemsData = [
 		type: "herbs",
 		name: "Dill",
 		desc: "Works Well With Fish And Shellfish",
-		img: "img/fresh/herbs/dill.webp",
+		img: "fresh/herbs/dill.webp",
 		price: 20,
 	},
 	{
@@ -1402,7 +1402,7 @@ let shopItemsData = [
 		type: "herbs",
 		name: "Rosemary",
 		desc: "Soups, Meats, Stews, And Sauces",
-		img: "img/fresh/herbs/rosemary.webp",
+		img: "fresh/herbs/rosemary.webp",
 		price: 20,
 	},
 	{
@@ -1411,7 +1411,7 @@ let shopItemsData = [
 		type: "herbs",
 		name: "Basil",
 		desc: "Works Well With Tomatoes, Any Type Of Meat Or Seafood",
-		img: "img/fresh/herbs/basil.webp",
+		img: "fresh/herbs/basil.webp",
 		price: 20,
 	},
 	{
@@ -1420,7 +1420,7 @@ let shopItemsData = [
 		type: "herbs",
 		name: "Mint",
 		desc: "Works Well With Summer fresh Salads",
-		img: "img/fresh/herbs/mint.webp",
+		img: "fresh/herbs/mint.webp",
 		price: 20,
 	},
 	{
@@ -1429,7 +1429,7 @@ let shopItemsData = [
 		type: "herbs",
 		name: "Chives",
 		desc: "Works Well As A Garnish  For Salads",
-		img: "img/fresh/herbs/chives.webp",
+		img: "fresh/herbs/chives.webp",
 		price: 20,
 	},
 	{
@@ -1438,7 +1438,7 @@ let shopItemsData = [
 		type: "herbs",
 		name: "Parsley",
 		desc: "Works Well In Sauces, Salads, And As A Garnish",
-		img: "img/fresh/herbs/parsley.webp",
+		img: "fresh/herbs/parsley.webp",
 		price: 20,
 	},
 	{
@@ -1447,7 +1447,7 @@ let shopItemsData = [
 		type: "herbs",
 		name: "Oregano",
 		desc: "Works Well In Mediterranean And Mexican Dishes",
-		img: "img/fresh/herbs/oregano.webp",
+		img: "fresh/herbs/oregano.webp",
 		price: 20,
 	},
 	{
@@ -1456,7 +1456,7 @@ let shopItemsData = [
 		type: "vegetables",
 		name: "Lettuce",
 		desc: "Leafy Green Vegetable",
-		img: "img/fresh/vegetables/lettuce.webp",
+		img: "fresh/vegetables/lettuce.webp",
 		price: 15,
 	},
 	{
@@ -1465,7 +1465,7 @@ let shopItemsData = [
 		type: "vegetables",
 		name: "Spinach",
 		desc: "Leafy Green Vegetable",
-		img: "img/fresh/vegetables/spinach.webp",
+		img: "fresh/vegetables/spinach.webp",
 		price: 16,
 	},
 	{
@@ -1474,7 +1474,7 @@ let shopItemsData = [
 		type: "vegetables",
 		name: "Cabbage",
 		desc: "Cruciferous Vegetable",
-		img: "img/fresh/vegetables/cabbage.webp",
+		img: "fresh/vegetables/cabbage.webp",
 		price: 12,
 	},
 	{
@@ -1483,7 +1483,7 @@ let shopItemsData = [
 		type: "vegetables",
 		name: "Garlic",
 		desc: "Allium Vegetable",
-		img: "img/fresh/vegetables/garlic.webp",
+		img: "fresh/vegetables/garlic.webp",
 		price: 17,
 	},
 	{
@@ -1492,7 +1492,7 @@ let shopItemsData = [
 		type: "vegetables",
 		name: "Pumpkin",
 		desc: "Marrow Vegetable",
-		img: "img/fresh/vegetables/pumpkin.webp",
+		img: "fresh/vegetables/pumpkin.webp",
 		price: 25,
 	},
 	{
@@ -1501,7 +1501,7 @@ let shopItemsData = [
 		type: "vegetables",
 		name: "Cucumber",
 		desc: "Marrow Vegetable",
-		img: "img/fresh/vegetables/cucumber.webp",
+		img: "fresh/vegetables/cucumber.webp",
 		price: 17,
 	},
 	{
@@ -1510,7 +1510,7 @@ let shopItemsData = [
 		type: "vegetables",
 		name: "Zucchini",
 		desc: "Marrow Vegetable",
-		img: "img/fresh/vegetables/zucchini.webp",
+		img: "fresh/vegetables/zucchini.webp",
 		price: 18,
 	},
 	{
@@ -1519,7 +1519,7 @@ let shopItemsData = [
 		type: "vegetables",
 		name: "Potato",
 		desc: "Root Vegetable",
-		img: "img/fresh/vegetables/potato.webp",
+		img: "fresh/vegetables/potato.webp",
 		price: 19,
 	},
 	{
@@ -1528,7 +1528,7 @@ let shopItemsData = [
 		type: "vegetables",
 		name: "Asparagus",
 		desc: "Plant Stem Vegetable",
-		img: "img/fresh/vegetables/asparagus.webp",
+		img: "fresh/vegetables/asparagus.webp",
 		price: 20,
 	},
 	{
@@ -1537,7 +1537,7 @@ let shopItemsData = [
 		type: "vegetables",
 		name: "Celery",
 		desc: "Plant Stem Vegetable",
-		img: "img/fresh/vegetables/celery.webp",
+		img: "fresh/vegetables/celery.webp",
 		price: 22,
 	},
 	{
@@ -1546,7 +1546,7 @@ let shopItemsData = [
 		type: "vegetables",
 		name: "Onion",
 		desc: "Allium Vegetable",
-		img: "img/fresh/vegetables/onion.webp",
+		img: "fresh/vegetables/onion.webp",
 		price: 16,
 	},
 	{
@@ -1555,7 +1555,7 @@ let shopItemsData = [
 		type: "meals",
 		name: "Lasagne",
 		desc: "Made With Fresh Hand-Rolled Pasta Sheets, Beef Ragu And Bechamel Sauce",
-		img: "img/frozen/meals/lasagne.webp",
+		img: "frozen/meals/lasagne.webp",
 		price: 68,
 	},
 	{
@@ -1564,7 +1564,7 @@ let shopItemsData = [
 		type: "meals",
 		name: "Cannelloni",
 		desc: "Fresh Pasta Rolls Filled With Nutmeg-Rich Spinach, Topped With White Sauce, Tangy Tomato And Basil Sauce, And fresh Ricotta Cheese",
-		img: "img/frozen/meals/cannelloni.webp",
+		img: "frozen/meals/cannelloni.webp",
 		price: 75,
 	},
 	{
@@ -1573,7 +1573,7 @@ let shopItemsData = [
 		type: "meals",
 		name: "Pizza",
 		desc: "Feta, Fresh Local Spinach And Sun Dried Tomato Top The Neapolitan-Style Wood Fire Base",
-		img: "img/frozen/meals/pizza.webp",
+		img: "frozen/meals/pizza.webp",
 		price: 90,
 	},
 	{
@@ -1582,7 +1582,7 @@ let shopItemsData = [
 		type: "meals",
 		name: "Thai Green Curry",
 		desc: "Green Coconut Curry Filled With Chicken Breast Pieces, Bamboo Shoots And Green Beans",
-		img: "img/frozen/meals/thai-green-curry.webp",
+		img: "frozen/meals/thai-green-curry.webp",
 		price: 80,
 	},
 	{
@@ -1591,7 +1591,7 @@ let shopItemsData = [
 		type: "meals",
 		name: "Rice & Lentil Pilaf",
 		desc: "Basmatic Rice, Brown Lentils, Warming Spices, And Crispy Fried Onions",
-		img: "img/frozen/meals/rice-and-lentil-pilaf.webp",
+		img: "frozen/meals/rice-and-lentil-pilaf.webp",
 		price: 35,
 	},
 	{
@@ -1600,7 +1600,7 @@ let shopItemsData = [
 		type: "meals",
 		name: "Chicken Cacciatore",
 		desc: "Italian Huntsman's Stew, With Olives, Sundried Tomato And Sauteed Mushrooms Served With Poppy Seed Sweet Potato Mash",
-		img: "img/frozen/meals/chicken-cacciatore.webp",
+		img: "frozen/meals/chicken-cacciatore.webp",
 		price: 78,
 	},
 	{
@@ -1609,7 +1609,7 @@ let shopItemsData = [
 		type: "meals",
 		name: "Butter Chicken",
 		desc: "Chicken Breast In Spiced And Decadently Creamy Butter Sauce",
-		img: "img/frozen/meals/butter-chicken.webp",
+		img: "frozen/meals/butter-chicken.webp",
 		price: 75,
 	},
 	{
@@ -1618,7 +1618,7 @@ let shopItemsData = [
 		type: "meals",
 		name: "Meatballs Alla Napoletana",
 		desc: "Juicy meatballs In A Tasty Napoletana Sauce",
-		img: "img/frozen/meals/meatballs-alla-napoletana.webp",
+		img: "frozen/meals/meatballs-alla-napoletana.webp",
 		price: 80,
 	},
 	{
@@ -1627,7 +1627,7 @@ let shopItemsData = [
 		type: "meats",
 		name: "Chicken Strips",
 		desc: "Southern Fried Chicken Strips 400g",
-		img: "img/frozen/meats/chicken-strips.webp",
+		img: "frozen/meats/chicken-strips.webp",
 		price: 55,
 	},
 	{
@@ -1636,7 +1636,7 @@ let shopItemsData = [
 		type: "meats",
 		name: "Chicken Steaklets",
 		desc: "Lime And Herb Chicken Steaklets 400g",
-		img: "img/frozen/meats/chicken-steaklets.webp",
+		img: "frozen/meats/chicken-steaklets.webp",
 		price: 53,
 	},
 	{
@@ -1645,7 +1645,7 @@ let shopItemsData = [
 		type: "meats",
 		name: "Beef Burgers",
 		desc: "Beef Patties 800g",
-		img: "img/frozen/meats/beef-burgers.webp",
+		img: "frozen/meats/beef-burgers.webp",
 		price: 80,
 	},
 	{
@@ -1654,7 +1654,7 @@ let shopItemsData = [
 		type: "meats",
 		name: "Pork Ribs",
 		desc: "St. Louis Style Pork Belly Ribs 700g",
-		img: "img/frozen/meats/pork-ribs.webp",
+		img: "frozen/meats/pork-ribs.webp",
 		price: 153,
 	},
 	{
@@ -1663,7 +1663,7 @@ let shopItemsData = [
 		type: "meats",
 		name: "Beef Ribs",
 		desc: "Premium Cut Beef Ribs 1kg",
-		img: "img/frozen/meats/beef-ribs.webp",
+		img: "frozen/meats/beef-ribs.webp",
 		price: 220,
 	},
 	{
@@ -1672,7 +1672,7 @@ let shopItemsData = [
 		type: "meats",
 		name: "Chicken Burgers",
 		desc: "Cheese Flavoured Crumbed Chicken Patties 520g",
-		img: "img/frozen/meats/chicken-burgers.webp",
+		img: "frozen/meats/chicken-burgers.webp",
 		price: 60,
 	},
 	{
@@ -1681,7 +1681,7 @@ let shopItemsData = [
 		type: "seafood",
 		name: "Fish Fingers",
 		desc: "Crispy Frozen Fish Fingers 600g",
-		img: "img/frozen/seafood/frozen-fish-fingers.webp",
+		img: "frozen/seafood/frozen-fish-fingers.webp",
 		price: 59,
 	},
 	{
@@ -1690,7 +1690,7 @@ let shopItemsData = [
 		type: "seafood",
 		name: "Hake Fillet",
 		desc: "Ciabatta Crumbed hake Portions 400g",
-		img: "img/frozen/seafood/frozen-hake-fillets.webp",
+		img: "frozen/seafood/frozen-hake-fillets.webp",
 		price: 65,
 	},
 	{
@@ -1699,7 +1699,7 @@ let shopItemsData = [
 		type: "seafood",
 		name: "Mussels",
 		desc: "Froze Cooked Whole West Coast Mussels 455g",
-		img: "img/frozen/seafood/frozen-mussels.webp",
+		img: "frozen/seafood/frozen-mussels.webp",
 		price: 45,
 	},
 	{
@@ -1708,7 +1708,7 @@ let shopItemsData = [
 		type: "seafood",
 		name: "Seafood Mix",
 		desc: "Frozen Seafood Mix 700g",
-		img: "img/frozen/seafood/frozen-seafood-mix.webp",
+		img: "frozen/seafood/frozen-seafood-mix.webp",
 		price: 75,
 	},
 	{
@@ -1717,7 +1717,7 @@ let shopItemsData = [
 		type: "seafood",
 		name: "Prawns",
 		desc: "Frozen Prawn Meat 800g",
-		img: "img/frozen/seafood/frozen-prawns.webp",
+		img: "frozen/seafood/frozen-prawns.webp",
 		price: 190,
 	},
 	{
@@ -1726,7 +1726,7 @@ let shopItemsData = [
 		type: "seafood",
 		name: "Calamari",
 		desc: "Frozen Calamari Heads And Tentacles 400g",
-		img: "img/frozen/seafood/frozen-calamari.webp",
+		img: "frozen/seafood/frozen-calamari.webp",
 		price: 80,
 	},
 	{
@@ -1735,7 +1735,7 @@ let shopItemsData = [
 		type: "seafood",
 		name: "Seafood Paella",
 		desc: "Frozen Seafood Paella 500g",
-		img: "img/frozen/seafood/frozen-paella.webp",
+		img: "frozen/seafood/frozen-paella.webp",
 		price: 92,
 	},
 	{
@@ -1744,7 +1744,7 @@ let shopItemsData = [
 		type: "seafood",
 		name: "Oysters",
 		desc: "Frozen Pacific half Shell Oysters 200g",
-		img: "img/frozen/seafood/frozen-oysters.webp",
+		img: "frozen/seafood/frozen-oysters.webp",
 		price: 130,
 	},
 	{
@@ -1753,7 +1753,7 @@ let shopItemsData = [
 		type: "greens",
 		name: "Cherries",
 		desc: "Frozen Dark Sweet Cherries 400g",
-		img: "img/frozen/greens/frozen-cherries.webp",
+		img: "frozen/greens/frozen-cherries.webp",
 		price: 50,
 	},
 	{
@@ -1762,7 +1762,7 @@ let shopItemsData = [
 		type: "greens",
 		name: "Berries",
 		desc: "Frozen Organic Berries 1.36kg",
-		img: "img/frozen/greens/frozen-berries.webp",
+		img: "frozen/greens/frozen-berries.webp",
 		price: 42,
 	},
 	{
@@ -1771,7 +1771,7 @@ let shopItemsData = [
 		type: "greens",
 		name: "Speciality Fruits",
 		desc: "Frozen Dragon Fruit, Mangoes, Strawberries, Peaches 1kg",
-		img: "img/frozen/greens/frozen-speciality-fruit.webp",
+		img: "frozen/greens/frozen-speciality-fruit.webp",
 		price: 60,
 	},
 	{
@@ -1780,7 +1780,7 @@ let shopItemsData = [
 		type: "greens",
 		name: "Edamame",
 		desc: "Frozen Edamame 500g",
-		img: "img/frozen/greens/frozen-edamame.webp",
+		img: "frozen/greens/frozen-edamame.webp",
 		price: 36,
 	},
 	{
@@ -1789,7 +1789,7 @@ let shopItemsData = [
 		type: "greens",
 		name: "Broccoli",
 		desc: "Frozen Broccoli 400g",
-		img: "img/frozen/greens/frozen-broccoli.webp",
+		img: "frozen/greens/frozen-broccoli.webp",
 		price: 30,
 	},
 	{
@@ -1798,7 +1798,7 @@ let shopItemsData = [
 		type: "greens",
 		name: "Cauliflower",
 		desc: "Frozen Riced Cauliflower 500g",
-		img: "img/frozen/greens/frozen-cauliflower.webp",
+		img: "frozen/greens/frozen-cauliflower.webp",
 		price: 39,
 	},
 	{
@@ -1807,7 +1807,7 @@ let shopItemsData = [
 		type: "potatoes",
 		name: "Crinkles",
 		desc: "Frozen French Fried Crinkled Potatoes 1kg",
-		img: "img/frozen/potatoes/frozen-frenchfries.webp",
+		img: "frozen/potatoes/frozen-frenchfries.webp",
 		price: 45,
 	},
 	{
@@ -1816,7 +1816,7 @@ let shopItemsData = [
 		type: "potatoes",
 		name: "Tater Tots",
 		desc: "Frozen Seasoned Shedded Potatoes 1kg",
-		img: "img/frozen/potatoes/frozen-tatertots.webp",
+		img: "frozen/potatoes/frozen-tatertots.webp",
 		price: 43,
 	},
 	{
@@ -1825,7 +1825,7 @@ let shopItemsData = [
 		type: "potatoes",
 		name: "Hash Brown",
 		desc: "Frozen Shredded Hash Brown Potatoes 1kg",
-		img: "img/frozen/potatoes/frozen-hashbrowns.webp",
+		img: "frozen/potatoes/frozen-hashbrowns.webp",
 		price: 40,
 	},
 	{
@@ -1834,7 +1834,7 @@ let shopItemsData = [
 		type: "potatoes",
 		name: "Mashed Potatoes",
 		desc: "Frozen Creamy Mashed Potatoes 500g",
-		img: "img/frozen/potatoes/frozen-mashedpotatoes.webp",
+		img: "frozen/potatoes/frozen-mashedpotatoes.webp",
 		price: 30,
 	},
 	{
@@ -1843,7 +1843,7 @@ let shopItemsData = [
 		type: "fish",
 		name: "Tuna Steaks",
 		desc: "Fresh Yellowfin Tuna Steaks 800g",
-		img: "img/seafood/fish/tuna-steak.webp",
+		img: "seafood/fish/tuna-steak.webp",
 		price: 349,
 	},
 	{
@@ -1852,7 +1852,7 @@ let shopItemsData = [
 		type: "fish",
 		name: "Swordfish Steaks",
 		desc: "Fresh Swordfish Steaks 800g",
-		img: "img/seafood/fish/swordfish-steaks.webp",
+		img: "seafood/fish/swordfish-steaks.webp",
 		price: 269,
 	},
 	{
@@ -1861,7 +1861,7 @@ let shopItemsData = [
 		type: "fish",
 		name: "Sailfish Steaks",
 		desc: "Fresh Sailfish Steaks 800g",
-		img: "img/seafood/fish/sailfish-steaks.webp",
+		img: "seafood/fish/sailfish-steaks.webp",
 		price: 259,
 	},
 	{
@@ -1870,7 +1870,7 @@ let shopItemsData = [
 		type: "fish",
 		name: "Salmon Fillets",
 		desc: "Fresh Cape Salmon Fillets/Geelbek 1200g",
-		img: "img/seafood/fish/salmon-fillets.webp",
+		img: "seafood/fish/salmon-fillets.webp",
 		price: 400,
 	},
 	{
@@ -1879,7 +1879,7 @@ let shopItemsData = [
 		type: "fish",
 		name: "Angel Fish Fillets",
 		desc: "Fresh Angel Fish Fillets 1100g",
-		img: "img/seafood/fish/angelfish-fillets.webp",
+		img: "seafood/fish/angelfish-fillets.webp",
 		price: 219,
 	},
 	{
@@ -1888,7 +1888,7 @@ let shopItemsData = [
 		type: "fish",
 		name: "Hake Fillets",
 		desc: "Fresh Hake/ Stock Fish Fillets 1.6kg",
-		img: "img/seafood/fish/hake-fillets.webp",
+		img: "seafood/fish/hake-fillets.webp",
 		price: 219,
 	},
 	{
@@ -1897,7 +1897,7 @@ let shopItemsData = [
 		type: "fish",
 		name: "Kingklip Fillets",
 		desc: "Fresh Kingklip Fillets 1100g",
-		img: "img/seafood/fish/kingklip-fillets.webp",
+		img: "seafood/fish/kingklip-fillets.webp",
 		price: 329,
 	},
 	{
@@ -1906,7 +1906,7 @@ let shopItemsData = [
 		type: "fish",
 		name: "Yellowtail Fillets",
 		desc: "Fresh Yellowtail Fillets 1800g",
-		img: "img/seafood/fish/yellowtail-fillets.webp",
+		img: "seafood/fish/yellowtail-fillets.webp",
 		price: 399,
 	},
 	{
@@ -1915,7 +1915,7 @@ let shopItemsData = [
 		type: "roe",
 		name: "Tobiko",
 		desc: "Roe From Flying Fish Species 50g",
-		img: "img/seafood/roe/tobiko.webp",
+		img: "seafood/roe/tobiko.webp",
 		price: 500,
 	},
 	{
@@ -1924,7 +1924,7 @@ let shopItemsData = [
 		type: "roe",
 		name: "Masago",
 		desc: "Roe From The Capelin(Smelt Family) 50g",
-		img: "img/seafood/roe/masago.webp",
+		img: "seafood/roe/masago.webp",
 		price: 600,
 	},
 	{
@@ -1933,7 +1933,7 @@ let shopItemsData = [
 		type: "roe",
 		name: "Ikura",
 		desc: "Salmon Roe 50g",
-		img: "img/seafood/roe/ikura.webp",
+		img: "seafood/roe/ikura.webp",
 		price: 350,
 	},
 	{
@@ -1942,7 +1942,7 @@ let shopItemsData = [
 		type: "roe",
 		name: "Caviar",
 		desc: "Roe Of The Wild Sturgeon Fish 50g",
-		img: "img/seafood/roe/caviar.webp",
+		img: "seafood/roe/caviar.webp",
 		price: 1000,
 	},
 	{
@@ -1951,7 +1951,7 @@ let shopItemsData = [
 		type: "shellfish",
 		name: "Oysters",
 		desc: "12 Large Fresh Oysters",
-		img: "img/seafood/shellfish/fresh-oysters.webp",
+		img: "seafood/shellfish/fresh-oysters.webp",
 		price: 229,
 	},
 	{
@@ -1960,7 +1960,7 @@ let shopItemsData = [
 		type: "shellfish",
 		name: "Crayfish",
 		desc: "8 Fresh Large Crayfish",
-		img: "img/seafood/shellfish/fresh-crayfish.webp",
+		img: "seafood/shellfish/fresh-crayfish.webp",
 		price: 1649,
 	},
 	{
@@ -1969,7 +1969,7 @@ let shopItemsData = [
 		type: "shellfish",
 		name: "Tiger Prawns",
 		desc: "2 Fresh Giant Tiger Prawns",
-		img: "img/seafood/shellfish/fresh-tiger-prawns.webp",
+		img: "seafood/shellfish/fresh-tiger-prawns.webp",
 		price: 549,
 	},
 	{
@@ -1978,7 +1978,7 @@ let shopItemsData = [
 		type: "shellfish",
 		name: "Mussels",
 		desc: "Half Shell Black Mussels 1600g",
-		img: "img/seafood/shellfish/fresh-mussels.webp",
+		img: "seafood/shellfish/fresh-mussels.webp",
 		price: 329,
 	},
 	{
@@ -1987,7 +1987,7 @@ let shopItemsData = [
 		type: "shellfish",
 		name: "Clams",
 		desc: "Fresh Hand Picked Clams 2kg",
-		img: "img/seafood/shellfish/fresh-clams.webp",
+		img: "seafood/shellfish/fresh-clams.webp",
 		price: 229,
 	},
 	{
@@ -1996,7 +1996,7 @@ let shopItemsData = [
 		type: "meals",
 		name: "Chickpea Curry",
 		desc: "Sweet Potato, Chickpeas, Spinach And Garlic in Light Curry Sauce",
-		img: "img/vegan/meals/vegan-sweet-potato-chickpea-curry.webp",
+		img: "vegan/meals/vegan-sweet-potato-chickpea-curry.webp",
 		price: 70,
 	},
 	{
@@ -2005,7 +2005,7 @@ let shopItemsData = [
 		type: "meals",
 		name: "Beans And Quinoa Salad",
 		desc: "Four Beans Fried In Olive Oil And Lemon Juice Served With Quinoa",
-		img: "img/vegan/meals/vegan-bean-quinoa-salad.webp",
+		img: "vegan/meals/vegan-bean-quinoa-salad.webp",
 		price: 70,
 	},
 	{
@@ -2014,7 +2014,7 @@ let shopItemsData = [
 		type: "meals",
 		name: "Pasta Salad",
 		desc: "Fusilli Pasta, Rocket, Red Onion, Cherry Tomatoes, Cucumber, And mixed Peppers Served With Mediterranean dressing Dressing",
-		img: "img/vegan/meals/vegan-pasta-salad.webp",
+		img: "vegan/meals/vegan-pasta-salad.webp",
 		price: 70,
 	},
 	{
@@ -2023,7 +2023,7 @@ let shopItemsData = [
 		type: "meals",
 		name: "Cauliflower and Cous Cous",
 		desc: "Cauliflower Ends On A Bed Of Cous Cous With Roasted Peppers And Garlic, Served With A light Vinaigrette",
-		img: "img/vegan/meals/vegan-cauliflower-couscous.webp",
+		img: "vegan/meals/vegan-cauliflower-couscous.webp",
 		price: 70,
 	},
 	{
@@ -2032,7 +2032,7 @@ let shopItemsData = [
 		type: "meals",
 		name: "Napoletana Pasta",
 		desc: "Fusilli Pasta In A Tomato, Onion, Garlic, And Basil Sauce",
-		img: "img/vegan/meals/vegan-napoletana-pasta.webp",
+		img: "vegan/meals/vegan-napoletana-pasta.webp",
 		price: 70,
 	},
 	{
@@ -2041,7 +2041,7 @@ let shopItemsData = [
 		type: "meals",
 		name: "Pumpkin And Lentil Curry",
 		desc: "Cinnamon Roasted Pumpkin And lentils In A Light Curry Sauce With Rocket And Thyme Leaves",
-		img: "img/vegan/meals/vegan-pumpkin-lentil-curry.webp",
+		img: "vegan/meals/vegan-pumpkin-lentil-curry.webp",
 		price: 70,
 	},
 	{
@@ -2050,7 +2050,7 @@ let shopItemsData = [
 		type: "snacks",
 		name: "Peanut Butter Cups",
 		desc: "Dark Chocolate Peanut Butter Cups",
-		img: "img/vegan/snacks/vegan-dark-chocolate-cups.webp",
+		img: "vegan/snacks/vegan-dark-chocolate-cups.webp",
 		price: 20,
 	},
 	{
@@ -2059,7 +2059,7 @@ let shopItemsData = [
 		type: "snacks",
 		name: "Hot Curls",
 		desc: "Cruchy Hot Curls, Fiery Hot",
-		img: "img/vegan/snacks/vegan-hot-curls.webp",
+		img: "vegan/snacks/vegan-hot-curls.webp",
 		price: 25,
 	},
 	{
@@ -2068,7 +2068,7 @@ let shopItemsData = [
 		type: "snacks",
 		name: "Roasted Chickpeas",
 		desc: "Sea Salt Flavoured Roasted Chickpeas",
-		img: "img/vegan/snacks/vegan-roasted-chickpea.webp",
+		img: "vegan/snacks/vegan-roasted-chickpea.webp",
 		price: 45,
 	},
 	{
@@ -2077,7 +2077,7 @@ let shopItemsData = [
 		type: "snacks",
 		name: "Mushroom Jerky",
 		desc: "Sesame, Ginger, And Korean Chili Portabella Mushroom Jerky",
-		img: "img/vegan/snacks/vegan-mushroom-jerky.webp",
+		img: "vegan/snacks/vegan-mushroom-jerky.webp",
 		price: 18,
 	},
 	{
@@ -2086,7 +2086,7 @@ let shopItemsData = [
 		type: "snacks",
 		name: "Cookie Dough Chunks",
 		desc: "Vegan Chocolate Chip Cookie Dough Chunks",
-		img: "img/vegan/snacks/vegan-cookie-dough-chunks.webp",
+		img: "vegan/snacks/vegan-cookie-dough-chunks.webp",
 		price: 15,
 	},
 	{
@@ -2095,7 +2095,7 @@ let shopItemsData = [
 		type: "snacks",
 		name: "Artisan Peanuts",
 		desc: "Pizootz Flavour Infused Virginia Artisan Peanuts",
-		img: "img/vegan/snacks/vegan-artisan-peanuts.webp",
+		img: "vegan/snacks/vegan-artisan-peanuts.webp",
 		price: 19,
 	},
 	{
@@ -2104,7 +2104,7 @@ let shopItemsData = [
 		type: "snacks",
 		name: "Breakfast Biscuits",
 		desc: "Blueberry Breakfast Biscuits",
-		img: "img/vegan/snacks/vegan-breakfast-biscuits.webp",
+		img: "vegan/snacks/vegan-breakfast-biscuits.webp",
 		price: 30,
 	},
 	{
@@ -2113,7 +2113,7 @@ let shopItemsData = [
 		type: "snacks",
 		name: "Cookies",
 		desc: "Double Chocolate Chip Cookies",
-		img: "img/vegan/snacks/vegan-cookies.webp",
+		img: "vegan/snacks/vegan-cookies.webp",
 		price: 36,
 	},
 	{
@@ -2122,7 +2122,7 @@ let shopItemsData = [
 		type: "dips",
 		name: "Queso Blanco",
 		desc: "Spicy Queso Blanco Style Dip",
-		img: "img/vegan/dips/queso-blanco.webp",
+		img: "vegan/dips/queso-blanco.webp",
 		price: 40,
 	},
 	{
@@ -2131,7 +2131,7 @@ let shopItemsData = [
 		type: "dips",
 		name: "Tzatziki",
 		desc: "Plant Based Tzatziki Style Dip",
-		img: "img/vegan/dips/tzatziki.webp",
+		img: "vegan/dips/tzatziki.webp",
 		price: 40,
 	},
 	{
@@ -2140,7 +2140,7 @@ let shopItemsData = [
 		type: "dips",
 		name: "Cilantro",
 		desc: "Plant Based Cilantro Dip",
-		img: "img/vegan/dips/cilantro.webp",
+		img: "vegan/dips/cilantro.webp",
 		price: 40,
 	},
 	{
@@ -2149,7 +2149,7 @@ let shopItemsData = [
 		type: "dips",
 		name: "Buffalo",
 		desc: "Plant Based Buffalo style Dip",
-		img: "img/vegan/dips/buffalo.webp",
+		img: "vegan/dips/buffalo.webp",
 		price: 40,
 	},
 	{
@@ -2158,7 +2158,7 @@ let shopItemsData = [
 		type: "dips",
 		name: "Queso",
 		desc: "Plant Based Queso Style Dip",
-		img: "img/vegan/dips/queso.webp",
+		img: "vegan/dips/queso.webp",
 		price: 40,
 	},
 	{
@@ -2167,7 +2167,7 @@ let shopItemsData = [
 		type: "dips",
 		name: "Avocado",
 		desc: "Avacado And Jalapeno Salsa",
-		img: "img/vegan/dips/avocado.webp",
+		img: "vegan/dips/avocado.webp",
 		price: 40,
 	},
 	{
@@ -2176,7 +2176,7 @@ let shopItemsData = [
 		type: "red",
 		name: "Beyerskloof Pinotage",
 		desc: "Beautifully Balanced With Strong Dark Fruit Flavours, Some Herbs And A Dash Of Smokiness",
-		img: "img/wine/red/beyerskloof-pinotage.webp",
+		img: "wine/red/beyerskloof-pinotage.webp",
 		price: 95,
 	},
 	{
@@ -2185,7 +2185,7 @@ let shopItemsData = [
 		type: "red",
 		name: "Protea Cabernet Sauvignon",
 		desc: "A Dark And Spicy Cabernet Sauvignon, This Fine Red Wine Is Full-Bodied And Dry",
-		img: "img/wine/red/protea.webp",
+		img: "wine/red/protea.webp",
 		price: 80,
 	},
 	{
@@ -2194,7 +2194,7 @@ let shopItemsData = [
 		type: "red",
 		name: "Franschhoek Cellar The Old Museum Merlot",
 		desc: "This Delicious Merlot Has A Wonderful Plum Colour, Herbal Nuances And Plum Aromas",
-		img: "img/wine/red/franschoek-merlot.webp",
+		img: "wine/red/franschoek-merlot.webp",
 		price: 85,
 	},
 	{
@@ -2203,7 +2203,7 @@ let shopItemsData = [
 		type: "red",
 		name: "Franschhoek Cellar Baker Station Shiraz",
 		desc: "A South African Syrah That Has A Spicy Kick. This Wine Pairs Well With Blue Cheese, Cinnamon And Beef And Lamb Dishes",
-		img: "img/wine/red/franschoek-shiraz.webp",
+		img: "wine/red/franschoek-shiraz.webp",
 		price: 85,
 	},
 	{
@@ -2212,7 +2212,7 @@ let shopItemsData = [
 		type: "red",
 		name: "Ken Forrester Petit Pinotage",
 		desc: "This Cheerfully Petit Pinotage Reflects The Modern Fruit Driven Wine Style",
-		img: "img/wine/red/petit-pinotage.webp",
+		img: "wine/red/petit-pinotage.webp",
 		price: 70,
 	},
 	{
@@ -2221,7 +2221,7 @@ let shopItemsData = [
 		type: "white",
 		name: "Diemersdal Sauvignon Blanc",
 		desc: "Ripe Fruit Purity With A Lingering Fruity After Taste",
-		img: "img/wine/white/diemersdal.webp",
+		img: "wine/white/diemersdal.webp",
 		price: 90,
 	},
 	{
@@ -2230,7 +2230,7 @@ let shopItemsData = [
 		type: "white",
 		name: "Ken Forrester Petit Chenin Blanc",
 		desc: "Can Be Served With Lightly Spiced Food, Shellfish And Cheese Platters",
-		img: "img/wine/white/ken-forrester.webp",
+		img: "wine/white/ken-forrester.webp",
 		price: 65,
 	},
 	{
@@ -2239,7 +2239,7 @@ let shopItemsData = [
 		type: "white",
 		name: "Oakridge Chardonnay",
 		desc: "Dry White, This Chardonnay Is Medium-Bodied With Well-Balanced Acidity",
-		img: "img/wine/white/oakridge.webp",
+		img: "wine/white/oakridge.webp",
 		price: 38,
 	},
 	{
@@ -2248,7 +2248,7 @@ let shopItemsData = [
 		type: "rose",
 		name: "Drostdy Hof Natural Sweet",
 		desc: "A Light And Fruity Wine With Fresh Strawberry, Cherry, And Plum Notes",
-		img: "img/wine/rose/drostdy-hof.webp",
+		img: "wine/rose/drostdy-hof.webp",
 		price: 43,
 	},
 	{
@@ -2257,7 +2257,7 @@ let shopItemsData = [
 		type: "rose",
 		name: "Protea Rosé",
 		desc: "Pairs Well With Seafood, Especially White Fish like Sole",
-		img: "img/wine/rose/protea-rose.webp",
+		img: "wine/rose/protea-rose.webp",
 		price: 80,
 	},
 	{
@@ -2266,7 +2266,7 @@ let shopItemsData = [
 		type: "rose",
 		name: "Warwick The First Lady Dry Rosé",
 		desc: "Bone Dry Rosé With Amazing Aromatics",
-		img: "img/wine/rose/warwick.webp",
+		img: "wine/rose/warwick.webp",
 		price: 100,
 	},
 ];
