@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
+<link href="css/main.css" rel="stylesheet" />
+<script src="https://kit.fontawesome.com/d6c3bb05ea.js" crossorigin="anonymous"></script>
+
+<title>Home</title>
+</head>
+
+<body>
+
+<nav>
+	<ul class="nav-btns">
+		<li><button id="signupBtn">sign up</button></li>
+		<li><button id="loginBtn" class="login-btn">log in</button></li>
+	</ul>
+	
+	<button class="res-btn" id="resBtn"><i class="fa-solid fa-ellipsis-vertical fa-lg"></i></button>
+	<div id="resNav" class="res-none">
+		<ul>
+			<li><a href="">sign up</a></li>
+			<li><a href="">log in</a></li>
+			<li><a href="">help</a></li>
+		</ul>
+		
+		<ul>
+			<li><a href="">shopping</a></li>
+			<li><a href="">recipes</a><li>
+			<li><a href="">delivery</a></li>
+			<li><a href="">about us</a></li>
+			<li><a href="">our mission</a><li>
+			<li><a href="">contact us</a></li>
+			<li><a href="">blog</a></li>
+			<li><a href="">our partners</a></li>
+			<li><a href="">careers</a></li>
+		</ul>
+	</div>
+</nav>
+
+<!-- Log In-->
+<div id="loginModal" class="page-modal">
+	<div class="page-modal-content">
+		<button class="page-modal-close"><i class="fa-solid fa-xmark fa-lg"></i></button>
+		<form>
+			<h1>Log In To Your Account</h1>
+			<hr>
+			<input type="text" placeholder="username or email" />
+			<hr>
+			<input type="password" placeholder="password" />
+			<button class="auth-btn">log in</button>
+		</form>
+	</div>
+</div>
+
+<!-- Sign Up-->
+<div id="signupModal" class="page-modal">
+	<div class="page-modal-content">
+		<button class="signup-modal-close"><i class="fa-solid fa-xmark fa-lg"></i></button>
+		<form>	
+			<h1>Create An Account</h1>
+			<hr>
+			<input type="text" placeholder="full name" />
+			<hr>
+			<input type="text" placeholder="email" />
+			<hr>
+			<input type="password" placeholder="password" />
+			<hr>
+			<input type="password" placeholder="confirm password" />
+			<button class="auth-btn">sign up</button>
+		</form>
+	</div>
+</div>
+
+<div class="wrapper">
+	<div class="container">
+	<div class="intro">
+		<div class="slides-container">
+			<div class="dot-wrapper">
+				<div class="dot-container">
+					<span class="dot" onclick="currentSlide(1)"><i class="fa-solid fa-bread-slice fa-md"></i></span>
+					<span class="dot" onclick="currentSlide(2)"><i class="fa-solid fa-drumstick-bite fa-md"></i></span>
+					<span class="dot" onclick="currentSlide(3)"><i class="fa-solid fa-cheese fa-md"></i></span>
+					<span class="dot" onclick="currentSlide(4)"><i class="fa-solid fa-carrot fa-md"></i></span>
+					<span class="dot" onclick="currentSlide(5)"><i class="fa-solid fa-pizza-slice fa-md"></i></span>
+					<span class="dot" onclick="currentSlide(6)"><i class="fa-solid fa-shrimp fa-md"></i></span>
+					<span class="dot" onclick="currentSlide(7)"><i class="fa-solid fa-seedling fa-md"></i></span>
+					<span class="dot" onclick="currentSlide(8)"><i class="fa-solid fa-wine-bottle fa-md"></i></span>
+				</div>
+			</div>
+			
+			<div class="sectionSlide fade" style="background-image: url('img/background/bakery.WebP');">
+				<div class="heading" >
+					<div>
+						<h2>Our</h2>
+						<h1>Bakery</h1>
+						<h3>Freshly Baked Goods.<span> Every Morning. Just For You.</span></h3>
+					</div>
+				</div>
+				
+				<div class="product-list">
+					<a href="bakery.html">bagels</a>
+					<a href="bakery.html">bread</a>
+					<p class="finished">rolls</p>	
+					<a href="bakery.html">cakes</a>
+					<a href="bakery.html">muffins</a>
+					<p class="finished">cheesecakes</p>
+					<a href="bakery.html">pastry</a>
+				</div>
+				
+				<div class="shop-now-btn"><a href="bakery.html">shop now</a></div>
+				
+				<div class="product-search">
+					<hr>
+					<div class="product-search-content">
+						<input type="text" placeholder="find something specific in our bakery...">
+					</div>
+				</div>
+			</div>
+			
+			<div class="sectionSlide fade" style="background-image: url('img/background/meat.WebP');">
+				<div class="heading">
+					<div>
+						<h2>Our</h2>
+						<h1>Butchery</h1>
+						<h3>Organic. Freerange Meat.<span> Just For You.</span></h3>
+					</div>
+				</div>
+				
+				<div class="product-list">
+					<a href="butchery.html">beef</a>
+					<a href="butchery.html">lamb</a>
+					<p class="finished">turkey</p>	
+					<a href="butchery.html">pork</a>
+					<a href="butchery.html">poultry</a>
+					<p class="finished">mince</p>
+				</div>
+				
+				<div class="shop-now-btn"><a href="bakery.html">shop now</a></div>
+				
+				<div class="product-search">
+					<hr>
+					<div class="product-search-content">
+						<input type="text" placeholder="find something specific in our butchery...">
+					</div>
+				</div>
+			</div>
+			
+
+			<div class="sectionSlide fade" style="background-image: url('img/background/dairy.WebP');">
+				<div class="heading">
+					<div>
+						<h2>All</h2>
+						<h1>Dairy</h1>
+						<h3>All Things Dairy.<span> From Around The World. Just For You.</span></h3>
+					</div>
+				</div>
+				
+				<div class="product-list">
+					<a href="dairy.html">milk</a>
+					<a href="dairy.html">butter</a>
+					<p class="finished">flavoured milk</p>	
+					<a href="dairy.html">cheese</a>
+					<a href="dairy.html">creame</a>
+					<a href="dairy.html">ice-cream</a>
+					<p class="finished">condesed milk</p>
+					<a href="dairy.html">yogurt</a>
+				</div>
+				
+				<div class="shop-now-btn"><a href="bakery.html">shop now</a></div>
+				
+				<div class="product-search">
+					<hr>
+					<div class="product-search-content">
+						<input type="text" placeholder="find a specific dairy product...">
+					</div>
+				</div>
+			</div>
+		
+			<div class="sectionSlide fade" style="background-image: url('img/background/fresh.WebP');">
+				<div class="heading">
+					<div>
+						<h2>Fresh</h2>
+						<h1>Food</h1>
+						<h3>All Natural. <span>Oraganic Fresh Goods. Just For You.</span></h3>
+					</div>
+				</div>
+				
+				<div class="product-list">
+					<a href="fresh.html">fruit</a>
+					<a href="fresh.html">herbs</a>
+					<p class="finished">ginger root</p>	
+					<a href="fresh.html">vegetables</a>
+					<p class="finished">spring onion</p>
+				</div>
+				
+				<div class="shop-now-btn"><a href="bakery.html">shop now</a></div>
+				
+				<div class="product-search">
+					<hr>
+					<div class="product-search-content">
+						<input type="text" placeholder="find your specific fresh produce...">
+					</div>
+				</div>
+			</div>
+			
+			<div class="sectionSlide fade" style="background-image: url('img/background/frozen.WebP');">
+				<div class="heading">
+					<div>
+						<h2>Frozen</h2>
+						<h1>Food</h1>
+						<h3>Vacuum Sealed.<span> Frozen Goods. Just For You.</span></h3>
+					</div>
+				</div>
+				
+				<div class="product-list">
+					<a href="frozen.html">frozen greens</a>
+					<a href="frozen.html">frozen meals</a>
+					<p class="finished">fozen yogurt</p>	
+					<a href="frozen.html">frozen meats</a>
+					<a href="frozen.html">forzen seafood</a>
+					<p class="finished">sorbet</p>
+					<a href="frozen.html">frozen potatoes</a>
+					<p class="finished">ice</p>
+				</div>
+				
+				<div class="shop-now-btn"><a href="bakery.html">shop now</a></div>
+				
+				<div class="product-search">
+					<hr>
+					<div class="product-search-content">
+						<input type="text" placeholder="find a specific frozen product...">
+					</div>
+				</div>
+			</div>
+			
+			<div class="sectionSlide fade" style="background-image: url('img/background/seafood.WebP');">
+				<div class="heading">
+					<div>
+						<h2>Fresh</h2>
+						<h1>Seafood</h1>
+						<h3>Ethically Fished.<span> Fresh Seafood. Just For You.</span></h3>
+					</div>
+				</div>
+				
+				<div class="product-list">
+					<a href="seafood.html">freash fish</a>
+					<a href="seafood.html">fresh shellfish</a>
+					<p class="finished">scallops</p>	
+					<a href="seafood.html">roe</a>
+					<p class="finished">squid</p>
+				</div>
+				
+				<div class="shop-now-btn"><a href="bakery.html">shop now</a></div>
+				
+				<div class="product-search">
+					<hr>
+					<div class="product-search-content">
+						<input type="text" placeholder="find something specific from the sea...">
+					</div>
+				</div>
+				
+			</div>
+			
+			<div class="sectionSlide fade" style="background-image: url('img/background/vegan.WebP');">
+				<div class="heading">
+					<div>
+						<h2>Pure</h2>
+						<h1>Vegan</h1>
+						<h3>Organic. Vegan Food.<span> Just For You.</span></h3>
+					</div>
+				</div>
+				
+				<div class="product-list">
+					<a href="vegan.html">vegan dips</a>
+					<p class="finished">vegan cheese</p>	
+					<a href="vegan.html">vegan meals</a>
+					<p class="finished">vegan yogurt</p>
+					<a href="vegan.html">vegan snacks</a>
+					<p class="finished">vegan wings</p>
+				</div>
+				
+				<div class="shop-now-btn"><a href="bakery.html">shop now</a></div>
+				
+				<div class="product-search">
+					<hr>
+					<div class="product-search-content">
+						<input type="text" placeholder="find your specific vegan product...">
+					</div>
+				</div>
+			</div>
+			
+			<div class="sectionSlide slide-from-right" style="background-image: url('img/background/wine.WebP');">
+				<div class="heading">
+					<div>
+						<h2>Our</h2>
+						<h1>Winery</h1>
+						<h3>Red Wine. White Wine.<span> Sparkling Wine. Just For You.</span></h3>
+					</div>
+				</div>
+				
+				<div class="product-list">
+					<a href="wine.html">Red Wine</a>
+					<p class="finished">Moscato</p>
+					<a href="wine.html">White Wine</a>
+					<p class="finished">Chardonnay</p>	
+					<a href="wine.html">Rose</a>
+					<p class="finished">Champange</p>
+				</div>
+				
+				<div class="shop-now-btn"><a href="bakery.html">shop now</a></div>
+				
+				<div class="product-search">
+					<hr>
+					<div class="product-search-content">
+						<input type="text" placeholder="find something specific in our winery...">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<footer>
+		<div>
+			<ul class="footer-links">
+				<li><a href="">sign up</a></li>
+				<li><a href="">sign in</a></li>
+				<li><a href="">help</a></li>
+				
+			</ul>
+			
+			<ul class="footer-links">
+				<li><a href="">shopping</a></li>
+				<li><a href="">recipes</a><li>
+				<li><a href="">delivery</a></li>
+			</ul>
+			
+			<ul class="footer-links">
+				<li><a href="">about us</a></li>
+				<li><a href="">our mission</a><li>
+				<li><a href="">contact us</a></li>
+			</ul>
+			
+			<ul class="footer-links">
+				<li><a href="">blog</a></li>
+				<li><a href="">our partners</a></li>
+				<li><a href="">careers</a></li>
+			</ul>
+			
+			<ul>
+				<li><a href="">Terms and Conditions</a></li>
+				<li><a href="">Privacy Policy</a></li>
+				<li><a href="">Cookie Policy</a></li>
+			</ul>
+			<ul class="socials">
+				<li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+				<li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+				<li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+			</ul>
+			
+			<!-- add social media here -->
+		</div>
+		
+	</footer>
+	</div>
+</div>
+<!-- page -->
+<script src="js/main.js"></script>
+</body>
+
+</html>

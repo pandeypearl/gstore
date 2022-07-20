@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
+<!-- CSS -->
+<link href="css/main.css" rel="stylesheet" />
+<link href="css/shop.css" rel="stylesheet" />
+<!--  JS -->
+<script src="https://kit.fontawesome.com/d6c3bb05ea.js" crossorigin="anonymous"></script>
+
+<title>Frozen Food</title>
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loaderWrapper">
+	<div class="loader-content">
+		<div id="loader">
+		</div>
+		<div class="loader-img">
+			<img src="img/loader/frozen.webp" width="90"/>
+		</div>
+	</div>
+</div>
+
+<div style="display: none;" id="myDiv" class="animate-bottom">
+<nav>
+	<ul><li class="shop-home-btn"><a href="index.html">home</a></li></ul>
+	<button id="shopResBtn"><i class="fa-solid fa-ellipsis-vertical fa-lg"></i></button>
+	<ul class="nav-btns">
+		<li><a class="button" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a><span class="cart-amount" id="cartAmount">0</span></li>
+	</ul>
+</nav>
+
+<div class="wrapper">
+	<div class="shop-container">
+		<div class="shop-nav">
+			<div class="client-content">
+				<ul>
+					<li><a href="" class="active-content">store</a></li>
+					<li><a href="">shopping lists</a><span>5</span></li>
+					<li><a href="">recipes</a><span>16</span></li>
+					<li><a href="">deliveries</a><span>1</span></li>
+				</ul>
+				
+				<ul>
+					<li><a href="">profile</a></li>
+					<li><a href="">settings</a></li>
+				</ul>
+			</div>
+			
+			<div class="store-content">
+				<ul>
+					<li><a href="">store locator</a></li>
+					<li><a href="">coupons</a></li>
+					<li><a href="">rewards program</a></li>
+					<li><a href="">customer service</a></li>
+				</ul>
+				
+				<div class="store-content-btns">
+					<a href=""><i class="fa-solid fa-bag-shopping fa-sm"></i></a>
+					<a href=""><i class="fa-solid fa-book fa-sm"></i></a>
+					<a href=""><i class="fa-solid fa-truck-fast fa-sm"></i></a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="shop-content-wrapper">
+			<div class="shop-content-nav">
+				<ul>
+					<li><a href="bakery.html"><i class="fa-solid fa-bread-slice"></i></a></li>
+					<li><a href="butchery.html"><i class="fa-solid fa-drumstick-bite"></i></a></li>
+					<li><a href="dairy.html"><i class="fa-solid fa-cheese"></i></a></li>
+					<li><a href="fresh.html"><i class="fa-solid fa-carrot"></i></a></li>
+					<li><a class="nav-active" href="frozen.html"><i class="fa-solid fa-pizza-slice"></i></a></li>
+					<li><a href="seafood.html"><i class="fa-solid fa-shrimp"></i></a></li>
+					<li><a href="vegan.html"><i class="fa-solid fa-seedling"></i></a></li>
+					<li><a href="wine.html"><i class="fa-solid fa-wine-bottle"></i></a></li>
+				</ul>
+			</div>
+			<hr class="search-hr">
+			<div class="shop-content-search">
+				<input type="text" placeholder="search our frozen foods...">
+			</div>
+			
+			<div class="shop-content-container">
+				<div class="shop-content-section">
+					<div class="section-nav">
+						<ul>
+							<li><span class="link" onclick="currentSection(1)">greens</span></li>
+							<li><span class="link active-link" onclick="currentSection(2)">meals</span></li>
+							<li><span class="link" onclick="currentSection(3)">meats</span></li>
+							<li><span class="link" onclick="currentSection(4)">seafood</span></li>
+							<li><span class="link" onclick="currentSection(5)">potatoes</span></li>
+						</ul>
+					</div>
+					
+					<div class="section-content" id="bakery">
+						<div class="mySection fade product-wrapper" id="greenSection"></div>
+						<div class="mySection fade product-wrapper" id="mealSection"></div>
+						<div class="mySection fade product-wrapper" id="meatSection"></div>
+						<div class="mySection fade product-wrapper" id="seafoodSection"></div>
+						<div class="mySection fade product-wrapper" id="potatoSection"></div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+<footer class="shop-footer">
+		<div>
+			<ul class="footer-links">
+				<li><a href="">sign up</a></li>
+				<li><a href="">sign in</a></li>
+				<li><a href="">help</a></li>
+				
+			</ul>
+			
+			<ul class="footer-links">
+				<li><a href="">shopping</a></li>
+				<li><a href="">recipes</a><li>
+				<li><a href="">delivery</a></li>
+			</ul>
+			
+			<ul class="footer-links">
+				<li><a href="">about us</a></li>
+				<li><a href="">our mission</a><li>
+				<li><a href="">contact us</a></li>
+			</ul>
+			
+			<ul class="footer-links">
+				<li><a href="">blog</a></li>
+				<li><a href="">our partners</a></li>
+				<li><a href="">careers</a></li>
+			</ul>
+			
+			<ul>
+				<li><a href="">Terms and Conditions</a></li>
+				<li><a href="">Privacy Policy</a></li>
+				<li><a href="">Cookie Policy</a></li>
+			</ul>
+			<ul class="socials">
+				<li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+				<li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+				<li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+			</ul>
+			
+			<!-- add social media here -->
+		</div>
+		
+	</footer>
+</div>
+
+<!-- page js -->
+<script type="text/javascript" src="js/shop.js"></script>
+<script type="text/javascript" src="js/shopData.js"></script>
+<script type="text/javascript" src="js/frozenContent.js"></script>
+<script type="text/javascript" src="js/loader.js"></script>
+<!--<script type="text/javascript" src="js/storeContent.js"></script>-->
+<!--<script type="text/javascript" src="js/frozen.js"></script>-->
+
+
+</body>
+
+</html>

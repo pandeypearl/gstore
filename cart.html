@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
+<!-- CSS -->
+<link href="css/main.css" rel="stylesheet" />
+<link href="css/shop.css" rel="stylesheet" />
+<link href="css/shopping-cart.css" rel="stylesheet" />
+<!--  JS -->
+<script src="https://kit.fontawesome.com/d6c3bb05ea.js" crossorigin="anonymous"></script>
+
+<title>Shopping Cart</title>
+</head>
+
+<body>
+
+<nav>
+	<ul><li class="shop-home-btn"><a href="index.html">home</a></li></ul>
+	<ul class="nav-btns">
+		<li><a class="button" href="shopping-cart.html"><i class="fa-solid fa-cart-shopping"></i></a><span class="cart-amount" id="cartAmount">0</span></li>
+	</ul>
+</nav>
+
+<div class="cart-wrapper">
+	<div class="cart-intro">
+		<div><button onclick="history.back()"><i class="fa-solid fa-circle-arrow-left"></i> &nbsp;back to store</button></div>
+		<h1>Your Shopping Cart</h1>
+	</div>
+	<hr>
+	
+	<div class="cart-content">
+		<div class="shopping-cart" id="shopping-cart"></div>
+		<div class="label" id="label"></div>
+	</div>
+</div>
+
+
+
+<!-- page js -->
+<script type="text/javascript" src="js/shopData.js"></script>
+<script type="text/javascript" src="js/shoppingCart.js"></script>
+
+</body>
+
+</html>
