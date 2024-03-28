@@ -673,6 +673,104 @@ nav .res-none{
 	font-weight: 600;
 }
 
+/* MORE INFO CONTENT */
+.more-info{
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	margin: 100px 0;
+}
+
+.more-info .info-item{
+	display: flex;
+}
+
+.more-info .info-item .info-image{
+	display: flex;
+	justify-items: center;
+	background-position: bottom center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 250px;
+	height: 300px;
+	text-align: center;
+	color: white;
+	padding: 20px 10px; 
+}
+
+.more-info .info-item .info-image h1,
+.more-info .info-item .info-image h2
+{
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px rgb(0,0,0,0.6);
+}
+
+.more-info .info-item .info-image h1{
+	color: var(--main-color);
+	font-size: 2.5rem;
+	margin-top: -10px;
+}
+
+.more-info .info-item .info-image h2{
+	font-size: 1.8rem;
+}
+
+.more-info .info-item .info-image h3{
+	text-shadow: 2px 2px 2px rgb(0,0,0,0.8);
+	margin: 0;
+}
+
+.more-info .info-item .info-image .info-shop-btn{
+	display: inline-block;
+	margin-top: 50px;
+	text-decoration: none;
+	color: white;
+	background-color: var(--main-color);
+	padding: 10px 16px;
+	border-radius: 20px;
+	width: auto;
+	box-shadow: 2px 2px 2px rgb(0,0,0,0.8);
+	transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.more-info .info-item .info-image .info-shop-btn:hover{
+	background-color: white;
+	color: var(--main-color);
+}
+
+.more-info .info-item .info-image .info-shop-btn i{
+	margin-right: 10px;
+}
+
+.info-item .info-content{
+	background-color: white;
+	flex-grow: 1;
+	display: flex;
+	justify-content: space-evenly;
+	/* gap: 30px; */
+	height: 300px;
+	padding: 20px 10px;
+}
+
+.info-item .info-content .item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.info-item .info-content .item img{
+	height: 100px;
+	width: auto;
+}
+
+.info-item .info-content .item h3{
+	color: var(--main-color);
+	padding:  4px 10px;
+	border-radius: 20px;
+}
+
 footer{
 	padding: 50px 0;
 	font-weight: 100;
