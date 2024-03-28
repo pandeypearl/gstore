@@ -771,6 +771,40 @@ nav .res-none{
 	border-radius: 20px;
 }
 
+/* ABOUT */
+.about{
+	display: flex;
+	align-items: center;
+	margin: 100px 0;
+	justify-content: space-between;
+	background-color: white;
+	padding: 50px 20px;
+}
+
+.about-item{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.about-icon{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: var(--orange-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.about-item h3, .about-item p{
+	margin: 0;
+}
+
+.about-item h3{
+	color: var(--main-color);
+}
 footer{
 	padding: 50px 0;
 	font-weight: 100;
