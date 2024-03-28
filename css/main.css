@@ -722,6 +722,28 @@ nav .res-none{
 	margin: 0;
 }
 
+.more-info .info-item .info-image .info-shop-btn{
+	display: inline-block;
+	margin-top: 50px;
+	text-decoration: none;
+	color: white;
+	background-color: var(--main-color);
+	padding: 10px 16px;
+	border-radius: 20px;
+	width: auto;
+	box-shadow: 2px 2px 2px rgb(0,0,0,0.8);
+	transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.more-info .info-item .info-image .info-shop-btn:hover{
+	background-color: white;
+	color: var(--main-color);
+}
+
+.more-info .info-item .info-image .info-shop-btn i{
+	margin-right: 10px;
+}
+
 .info-item .info-content{
 	background-color: white;
 	flex-grow: 1;
