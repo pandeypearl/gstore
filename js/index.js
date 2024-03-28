@@ -105,3 +105,11 @@ seafoodItems.forEach(item => {
     const itemHTML = generateItemHTML(item);
     seafoodItemsContainer.innerHTML += itemHTML;
 });
+
+// Displaying vegan items in HTML
+const veganItemsContainer = document.getElementById('veganItems');
+const veganItems = getFirstItemByType('vegan');
+veganItems.forEach(item => {
+    const itemHTML = generateItemHTML(item);
+    veganItemsContainer.innerHTML += itemHTML;
+});
