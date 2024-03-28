@@ -81,3 +81,11 @@ dairyItems.forEach(item => {
     const itemHTML = generateItemHTML(item);
     dairyItemsContainer.innerHTML += itemHTML;
 });
+
+// Displaying fresh items in HTML
+const freshItemsContainer = document.getElementById('freshItems');
+const freshItems = getFirstItemByType('fresh');
+freshItems.forEach(item => {
+    const itemHTML = generateItemHTML(item);
+    freshItemsContainer.innerHTML += itemHTML;
+});
