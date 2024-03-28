@@ -89,3 +89,19 @@ freshItems.forEach(item => {
     const itemHTML = generateItemHTML(item);
     freshItemsContainer.innerHTML += itemHTML;
 });
+
+// Displaying frozen items in HTML
+const frozenItemsContainer = document.getElementById('frozenItems');
+const frozenItems = getFirstItemByType('frozen');
+frozenItems.forEach(item => {
+    const itemHTML = generateItemHTML(item);
+    frozenItemsContainer.innerHTML += itemHTML;
+});
+
+// Displaying seafood items in HTML
+const seafoodItemsContainer = document.getElementById('seafoodItems');
+const seafoodItems = getFirstItemByType('seafood');
+seafoodItems.forEach(item => {
+    const itemHTML = generateItemHTML(item);
+    seafoodItemsContainer.innerHTML += itemHTML;
+});
