@@ -113,3 +113,11 @@ veganItems.forEach(item => {
     const itemHTML = generateItemHTML(item);
     veganItemsContainer.innerHTML += itemHTML;
 });
+
+// Displaying wine items in HTML
+const wineItemsContainer = document.getElementById('wineItems');
+const wineItems = getFirstItemByType('wine');
+wineItems.forEach(item => {
+    const itemHTML = generateItemHTML(item);
+    wineItemsContainer.innerHTML += itemHTML;
+});
