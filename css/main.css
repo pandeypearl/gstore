@@ -726,8 +726,8 @@ nav .res-none{
 	background-color: white;
 	flex-grow: 1;
 	display: flex;
-	justify-content: center;
-	gap: 30px;
+	justify-content: space-evenly;
+	/* gap: 30px; */
 	height: 300px;
 	padding: 20px 10px;
 }
