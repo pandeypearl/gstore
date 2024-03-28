@@ -32,24 +32,24 @@ function getFirstItemByType(section) {
 }
 
 // Function to pluralize a word based on count
-function pluralize(word, count) {
-    const irregularPlurals = {
-        'pastry': 'pastries',
-    }
+// function pluralize(word, count) {
+//     const irregularPlurals = {
+//         'pastry': 'pastries',
+//     }
 
-    if (irregularPlurals[word]) {
-        return count === 1 ? word: irregularPlurals[word];
-    }
+//     if (irregularPlurals[word]) {
+//         return count === 1 ? word: irregularPlurals[word];
+//     }
 
-    return count === 1 ? word : word + 's';
-}
+//     return count === 1 ? word : word + 's';
+// }
 
 // Generation HTML for items
 function generateItemHTML(item) {
-    const typeName = pluralize(item.type, shopItemsData.filter(i => i.type === item.type).length);
+    // const typeName = pluralize(item.type, shopItemsData.filter(i => i.type === item.type).length);
     return `
         <div class="item">
-            <h3>${typeName}</h3>
+            <h3>${item.type}</h3>
             <img src="${item.img}" alt="${item.name}">
             <h4>${item.name}</h4>
             <p>R ${item.price}.00</p>
@@ -58,10 +58,26 @@ function generateItemHTML(item) {
     `;
 }
 
-// Displaying items in HTML
+// Displaying bakery items in HTML
 const bakeryItemsContainer = document.getElementById('bakeryItems');
 const bakeryItems = getFirstItemByType('bakery');
 bakeryItems.forEach(item => {
     const itemHTML = generateItemHTML(item);
     bakeryItemsContainer.innerHTML += itemHTML;
+});
+
+// Displaying butchery items in HTML
+const butcheryItemsContainer = document.getElementById('butcheryItems');
+const butcheryItems = getFirstItemByType('butchery');
+butcheryItems.forEach(item => {
+    const itemHTML = generateItemHTML(item);
+    butcheryItemsContainer.innerHTML += itemHTML;
+});
+
+// Displaying dairy items in HTML
+const dairyItemsContainer = document.getElementById('dairyItems');
+const dairyItems = getFirstItemByType('dairy');
+dairyItems.forEach(item => {
+    const itemHTML = generateItemHTML(item);
+    dairyItemsContainer.innerHTML += itemHTML;
 });
