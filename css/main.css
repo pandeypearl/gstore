@@ -710,7 +710,7 @@ header p {
   to{ bottom:0; opacity:1 }
 }
 
-/* CATEGORIES */
+/* --------- CATEGORIES --------- */
 .categories {
 	display: flex;
 	flex-direction: column;
@@ -734,16 +734,17 @@ header p {
 	flex-direction: column;
 	align-items: center;
 	gap: 20px;
-	background-color: var(--yellow-color);
+	/* background-color: var(--main-color); */
 	color: var(--main-color);
 	transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 	padding: 10px 10px 20px 10px;
 	border-radius: 50px;
 	text-decoration: none;
+	/* box-shadow: 2px 2px 2px rgb(0,0,0,0.4); */
 }
 
 .cat-items .item:hover{
-	background-color: var(--orange-color);
+	background-color: var(--main-light);
 	color: white;
 }
 
