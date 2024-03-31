@@ -1056,10 +1056,14 @@ footer .socials a:hover{
 		align-items: center;
 	}
 
-	/* .info-item .info-content .item:nth-of-type(5),
-	.info-item .info-content .item:nth-of-type(6){
-		display: none;
-	} */
+	.info-item .info-content{
+		width: 100%;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		gap: 40px;
+		height: auto;
+	}
+
 
 	/* ----------- ABOUT ---------- */
 	.about{
@@ -1296,10 +1300,7 @@ footer .socials a:hover{
 	}
 
 	.info-item .info-content{
-		flex-wrap: wrap;
-		justify-content: flex-start;
 		gap: 20px;
-		height: auto;
 	}
 
 	.info-item .info-content .item img{
