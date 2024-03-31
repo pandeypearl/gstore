@@ -93,7 +93,7 @@ nav ul li{
 }
 
 
-nav .nav-btns li button,
+nav .nav-btns li a,
 nav .nav-btns li .button{
 	padding: 10px 24px;
 	border: 1px solid #43AA8B;
@@ -103,10 +103,10 @@ nav .nav-btns li .button{
 	color: #FFFFF0;
 	cursor:pointer;
 	font-size: 14px;
-	
+	text-decoration: none;
 }
 
-nav .nav-btns li button:hover,
+nav .nav-btns li a:hover,
 nav .nav-btns li .button:hover{
 	background-color: #FFFFF0 ;
 	color: #43AA8B;
@@ -189,62 +189,64 @@ nav .res-none{
 }
 
 
-.page-modal-content{
+.auth-form-content{
 	background-color: #fefefe;
-	margin: 10% auto; /* 15% from the top and centered */
+	margin: 5% auto; /* 15% from the top and centered */
 	padding: 20px 0;
 	border: 1px solid rgb(0,0,0,0,1);
-	width: 30%; /* Could be more or less, depending on screen size */
+	width: 400px; /* Could be more or less, depending on screen size */
 	box-shadow: 3px 3px 3px rgb(0,0,0,0.2);
 	position: relative;
 }
 
-.page-modal-close, 
-.signup-modal-close {
-	background-color: white;
-	color: #43AA8B;
-	display: block;
+.form-back-btn {
+	color: var(--main-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	position: absolute;
-	font-weight: bold;
 	border: none;
-	right: 50px;
+	left: 50px;
 	top: 30px;
-	border: 1px solid #43AA8B;
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	box-shadow: 1px 1px 1px rgb(0,0,0,0.2);
+	text-decoration: none;
+	font-size: 2rem;
 }
 
-.page-modal-close:hover,
-.page-modal-close:focus,
-.signup-modal-close:hover,
-.signup-modal-close:focus {
-  color: white;
-  background-color: #43AA8B;
-  text-decoration: none;
-  cursor: pointer;
+.form-back-btn:hover,
+.form-back-btn:focus{
+  color: var(--main-light);
 }
 
-.page-modal-content form{
+.auth-form-content form{
 	display: flex;
 	flex-direction: column;
 	margin-top: 50px;
 }
 
-.page-modal-content form h1{
+.auth-form-content form h1{
 	font-weight: 400;
 	color: #43AA8B;
 	margin-left: 50px;
+	margin-bottom: 0;
 }
 
-.page-modal-content form hr{
+.auth-form-content form p{
+	margin-left: 50px;
+	margin-top: 0;
+	margin-bottom: 50px;
+}
+
+.auth-form-content form p a{
+	color: var(--main-color);
+}
+
+.auth-form-content form hr{
 	width: 99%;
 	margin-bottom: -40px;
 	border: 3px solid #FFFFF0;
 }
 
-.page-modal-content form input{
+.auth-form-content form input{
 	background-color: #FFFFF0;
 	border: none;
 	margin: 20px 50px;
@@ -253,12 +255,12 @@ nav .res-none{
 	border-radius: 16px;
 }
 
-.page-modal-content form input::placeholder{
+.auth-form-content form input::placeholder{
 	color: #43AA8B;
 	font-size: 14px;
 }
 
-.page-modal-content form button{
+.auth-form-content form button{
 	display: block;
 	background-color: #43AA8B;
 	border: 1px solid #43AA8B;
@@ -273,7 +275,7 @@ nav .res-none{
 }
 
 
-.page-modal-content form button:hover{
+.auth-form-content form button:hover{
 	background-color: #FFFFF0;
 	color: #43AA8B;
 	box-shadow: 2px 2px 2px rgb(0,0,0,0.4);
@@ -1140,7 +1142,25 @@ footer .socials a:hover{
 	.wrapper{
 		padding: 0 10px;
 	}
-	
+
+	/* ---------- AUTH FORM ----------- */
+	.auth-form-content{
+		width: 300px;
+	}
+
+	.form-back-btn {
+		left: 30px;
+	}
+
+	.auth-form-content form h1,
+	.auth-form-content form p{
+		margin-left: 30px;
+	}
+
+	.auth-form-content form input{
+		margin: 20px 30px;
+	}
+
 	
 	.dot-wrapper{
 		padding: 30px 10px;
