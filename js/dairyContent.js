@@ -248,7 +248,7 @@ let calculation = () => {
 
 calculation();
 
-// Search Functionality for Bakery Items
+// Search Functionality for Dairy Items
 const dairyItems = shopItemsData.filter(item => item.section === 'dairy');
 
 // Rendering items based on filtering items in modal
