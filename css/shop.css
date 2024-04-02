@@ -2,8 +2,6 @@
 nav{
 	position: relative;
 }
-.shop-container{
-}
 
 .shop-nav{
 	position: fixed;
@@ -111,9 +109,16 @@ nav{
 	box-shadow: 2px 2px 2px rgb(0,0,0,0.1);
 }
 
-
+/* ----------- SEARCH BAR ---------- */
 .search-hr{
-	border: 2px solid #FFFFF0; 
+	/* border: 2px solid #FFFFF0;  */
+	background-color: #FFFFF0;
+	height: 4px;
+	/* border-top: 1px solid var(--main-color);
+	border-bottom: 1px solid var(--main-color);
+	border-right: none;
+	border-left: none; */
+	border: none;
 }
 
 .shop-content-search{
@@ -127,8 +132,24 @@ nav{
 	width: 400px;
 	padding: 16px 20px;
 	border: none;
-	border-radius: 32px;
+	border-radius: 32px 0 0 32px;
 	outline: none;
+	border: 1px solid var(--main-color);
+}
+
+.shop-content-search button{
+	background-color: #43AA8B;
+	color: #FFFFF0;
+	padding: 16px 20px;
+	border: 1px solid var(--main-color);
+	border-radius: 0 32px 32px 0;
+	cursor: pointer;
+	margin-left: -10px;
+}
+
+.shop-content-search button:hover{
+	background-color: var(--main-light);
+	border: 1px solid var(--main-light);
 }
 
 .shop-content-search input::placeholder{
@@ -148,6 +169,7 @@ nav{
 	background-color: white;
 	padding: 20px;
 	border-radius: 8px;
+	width: 50%;
 	max-height: 80vh;
 	overflow-y: scroll;
 	overflow-x: hidden;
@@ -158,6 +180,30 @@ nav{
 
 .modal-header h2{
 	color: var(--main-color);
+	padding:10px;
+}
+
+.modal-header{
+	position: relative;
+}
+
+.modal-header .btn-close{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: var(--main-color);
+	border: 1px solid var(--main-color);
+	color: white;
+	box-shadow: 2px 2px 2px rgb(0,0,0,0.4);
+}
+
+.modal-header .btn-close:hover{
+	background-color: var(--main-light);
+	border: 1px solid var(--main-light);
 }
   
 .modal-content {
