@@ -111,13 +111,8 @@ nav{
 
 /* ----------- SEARCH BAR ---------- */
 .search-hr{
-	/* border: 2px solid #FFFFF0;  */
 	background-color: #FFFFF0;
 	height: 4px;
-	/* border-top: 1px solid var(--main-color);
-	border-bottom: 1px solid var(--main-color);
-	border-right: none;
-	border-left: none; */
 	border: none;
 }
 
@@ -305,10 +300,6 @@ nav{
 .shop-content-nav ul li .nav-active{
 	background-color: #FFFFF0;
 	color: #43AA8B
-}
-
-.shop-content-section{
-	#display: flex;
 }
 
 
