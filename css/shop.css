@@ -2,8 +2,6 @@
 nav{
 	position: relative;
 }
-.shop-container{
-}
 
 .shop-nav{
 	position: fixed;
@@ -111,9 +109,11 @@ nav{
 	box-shadow: 2px 2px 2px rgb(0,0,0,0.1);
 }
 
-
+/* ----------- SEARCH BAR ---------- */
 .search-hr{
-	border: 2px solid #FFFFF0; 
+	background-color: #FFFFF0;
+	height: 4px;
+	border: none;
 }
 
 .shop-content-search{
@@ -127,14 +127,145 @@ nav{
 	width: 400px;
 	padding: 16px 20px;
 	border: none;
-	border-radius: 32px;
+	border-radius: 32px 0 0 32px;
 	outline: none;
+	border: 1px solid var(--main-color);
+}
+
+.shop-content-search button{
+	background-color: #43AA8B;
+	color: #FFFFF0;
+	padding: 16px 20px;
+	border: 1px solid var(--main-color);
+	border-radius: 0 32px 32px 0;
+	cursor: pointer;
+	margin-left: -10px;
+}
+
+.shop-content-search button:hover{
+	background-color: var(--main-light);
+	border: 1px solid var(--main-light);
 }
 
 .shop-content-search input::placeholder{
 	color: #43AA8B;
 	font-size: 16px;
 	font-weight: 200;
+}
+
+/* ---------- SEARCH RESULTS MODAL ---------- */
+.modal {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1000;
+	background-color: white;
+	padding: 20px;
+	border-radius: 8px;
+	width: 50%;
+	max-height: 80vh;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.modal-dialog {
+	max-width: 800px; /* Set maximum width */
+}
+
+.modal-header h2{
+	color: var(--main-color);
+	padding:10px;
+}
+
+.modal-header{
+	position: relative;
+}
+
+.modal-header .btn-close{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: var(--main-color);
+	border: 1px solid var(--main-color);
+	color: white;
+	box-shadow: 2px 2px 2px rgb(0,0,0,0.4);
+}
+
+.modal-header .btn-close:hover{
+	background-color: var(--main-light);
+	border: 1px solid var(--main-light);
+}
+  
+.modal-content {
+	background-color: #f8f9fa; /* Set background color */
+	border-radius: 10px; /* Add border radius */
+}
+
+.modal-body {
+	padding: 20px; /* Add padding to modal body */
+}
+
+.modal-body ul{
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.modal-body ul .item{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.modal-body ul .item .item-image{
+	width: 100px;
+	height: auto;
+}
+
+.modal-body ul .item .item-details .item-name{
+	color: var(--main-color);
+	margin:0;
+}
+
+.modal-body ul .item .item-details .item-description,
+.modal-body ul .item .item-details .item-price
+{
+	margin:0;
+}
+
+.modal-body ul .item .item-details .add-to-basket-btn{
+	background-color: var(--main-color);
+	color: white;
+	border-radius: 10px;
+	border: 1px solid var(--main-color);
+	cursor: pointer;
+	padding: 4px 10px;
+	box-shadow: 2px 2px 2px rgb(0,0,0,0.4);
+	margin: 10px 0;
+}
+
+.modal-body ul .item .item-details .add-to-basket-btn:hover{
+	background-color: var(--main-light);
+	border: 1px solid var(--main-light);
+	
+}
+
+/* Overlay */
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+	z-index: 999; /* Ensure overlay is above other content */
+	display: none; /* Hide overlay by default */
 }
 
 .shop-content-container{
@@ -169,10 +300,6 @@ nav{
 .shop-content-nav ul li .nav-active{
 	background-color: #FFFFF0;
 	color: #43AA8B
-}
-
-.shop-content-section{
-	#display: flex;
 }
 
 
