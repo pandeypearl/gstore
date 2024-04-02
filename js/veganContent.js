@@ -146,3 +146,105 @@ let calculation = () => {
 };
 
 calculation();
+
+// Search Functionality for Vegan Items
+const veganItems = shopItemsData.filter(item => item.section === 'vegan');
+
+// Rendering items based on filtering items in modal
+function renderItemsInModal(items) {
+	const itemList = document.getElementById('itemList');
+	// Clearing previous items
+	itemList.innerHTML= '';
+
+	if (items.length === 0) {
+		itemList.innerHTML = '<p>No results found.</p>';
+	} else {
+		items.forEach(item => {
+			const li = document.createElement('li');
+			li.classList.add('item');
+
+			// Item Image Element
+			const img = document.createElement('img');
+			img.src = item.img;
+			img.alt = item.name;
+			img.classList.add('item-image');
+			// li.textContent = item.name;
+			li.appendChild(img);
+
+			// Item Details Container
+			const detailsContainer = document.createElement('div');
+			detailsContainer.classList.add('item-details');
+
+			// Add item name
+            const name = document.createElement('h3');
+            name.textContent = item.name;
+            name.classList.add('item-name');
+            detailsContainer.appendChild(name);
+
+            // Add item description
+            const description = document.createElement('p');
+            description.textContent = item.desc;
+            description.classList.add('item-description');
+            detailsContainer.appendChild(description);
+
+            // Add item price
+            const price = document.createElement('p');
+            price.textContent = 'R ' + item.price + '.00'; 
+            price.classList.add('item-price');
+            detailsContainer.appendChild(price);
+
+	
+			const addButton = document.createElement('button');
+			addButton.textContent = "Add to Basket";
+			addButton.classList.add('add-to-basket-btn');
+			addButton.addEventListener('click', function() {
+				addToBasket(item.id);
+			});
+			detailsContainer.appendChild(addButton);
+
+			li.appendChild(detailsContainer);
+			itemList.appendChild(li);
+		});
+	}
+
+	
+
+	// Showing the Results Modal
+	const modal = document.getElementById('veganResultsModal');
+	modal.style.display = 'block';
+	const overlay = document.getElementById('overlay');
+	overlay.style.display = 'block';
+
+	document.getElementById('closeModalBtn').addEventListener('click', function() {
+		modal.style.display= 'none';
+		overlay.style.display= 'none';
+	})
+}
+
+// Event Listener for search input
+document.getElementById('searchForm').addEventListener('submit', function(event) {
+	event.preventDefault();
+	const searchTerm= document.getElementById('searchInput').value.toLowerCase();
+	const filteredItems= veganItems.filter(item => item.name.toLowerCase().includes(searchTerm));
+	renderItemsInModal(filteredItems);
+});
+
+// Adding item to basket
+function addToBasket(itemId) {
+	const selectedItem = veganItems.find(item => item.id === itemId);
+	const basketItemIndex = basket.findIndex(item => item.id === itemId);
+
+	if (basketItemIndex === -1) {
+		basket.push({
+			id: selectedItem.id,
+			item: 1,
+		});
+	} else {
+		basket[basketItemIndex].item++;
+	}
+
+	// Updating UI
+	update(itemId);
+	localStorage.setItem("data", JSON.stringify(basket));
+}
+
