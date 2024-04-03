@@ -1,6 +1,9 @@
 /*     SHOP STYLES    */
 nav{
 	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .shop-nav{
@@ -26,11 +29,12 @@ nav{
 	position: absolute;
 	left:50px;
 }
+
 .shop-home-btn a{
 	text-decoration: none;
 	color: #43AA8B;
 	font-weight: 900;
-	font-size: 1.2rem;
+	font-size: 1.6rem;
 
 }
 
